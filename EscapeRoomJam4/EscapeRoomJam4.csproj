@@ -41,5 +41,11 @@
     <None Include="subtitle.png" Condition="Exists('subtitle.png')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="assets\bundles\escapeship">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityProjectPath)')">
+    <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityProjectPath)&quot;" />
+  </Target>
 </Project>

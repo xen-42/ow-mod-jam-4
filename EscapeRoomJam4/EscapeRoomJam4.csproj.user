@@ -1,5 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
     <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/xenandWyrm.EscapeRoomJam4</OutputPath>
+    <UnityProjectPath>G:\My Files\Documents\UnityProjects\OuterWildsOctober2024JamAssets\Assets\Jam4</UnityProjectPath>
   </PropertyGroup>
 </Project>
