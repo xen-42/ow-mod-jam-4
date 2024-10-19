@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "name": "Test Planet",
-  "starSystem": "xen.EscapeRoomJam4",
+  "starSystem": "xen.EscapeSystem",
   "Base": {
     "surfaceGravity": 12,
     "surfaceSize": 100,
@@ -11,10 +11,11 @@
     "enabled": true
   },
   "Orbit": {
-    "semiMajorAxis": 5000,
-    "primaryBody": "Jam 4 Star",
-    "isMoon": true,
-    "siderealPeriod": 6
+    "staticPosition": {
+      "x": 500
+    },
+    "primaryBody": "EscapeShip",
+    "initialRotation": 180
   },
   "Atmosphere": {
     "size": 120,

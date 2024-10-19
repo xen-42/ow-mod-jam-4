@@ -10,6 +10,10 @@ namespace EscapeRoomJam4
         public static EscapeRoomJam4 Instance;
         public INewHorizons NewHorizons;
 
+        public const string ESCAPE_SYSTEM = "xen.EscapeSystem";
+
+        public static bool InEscapeSystem() => Instance.NewHorizons.GetCurrentStarSystem() == ESCAPE_SYSTEM;
+
         public void Awake()
         {
             Instance = this;
@@ -31,7 +35,7 @@ namespace EscapeRoomJam4
 
         public void OnStarSystemLoaded(string system)
         {
-            if (system == "xen.EscapeRoomJam4")
+            if (system == ESCAPE_SYSTEM)
             {
                 // Quantum Puzzle
                 NewHorizons.GetPlanet("Test Planet").transform.Find("Sector/QuantumPuzzle").gameObject.AddComponent<ERQuantumPuzzleController>();

@@ -1,9 +1,5 @@
 ﻿using HarmonyLib;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EscapeRoomJam4.QuantumPuzzle;
 
@@ -20,7 +16,7 @@ public static class SocketedQuantumObjectPatches
             return true;
         }
 
-        if (EscapeRoomJam4.Instance.NewHorizons.GetCurrentStarSystem() == "xen.EscapeRoomJam4")
+        if (EscapeRoomJam4.InEscapeSystem())
         {
             if (socket.GetVisibilityObject() is SnapshotLockableVisibilityObject qObj)
             {
