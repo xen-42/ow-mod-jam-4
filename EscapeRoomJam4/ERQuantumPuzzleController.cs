@@ -1,27 +1,13 @@
-﻿using HarmonyLib;
-using System;
-using System.Net.Sockets;
-using UnityEngine;
-using System.Linq;
+﻿using UnityEngine;
 
 namespace EscapeRoomJam4;
 
-[HarmonyPatch]
 public class ERQuantumPuzzleController : MonoBehaviour
 {
     private SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
-    private OWRigidbody _planetRigidBody;
-    public Action Solved;
-
-    // Next time the player is looking at all the objects, check if they are in the right states
-    private bool _flagCheckWhenAllVisible;
-
-    private static Action<QuantumObject> _onQuantumStateChanged;
 
     public void Start()
     {
-        _planetRigidBody = this.GetAttachedOWRigidbody();
-
         _quantumObject1 = transform.Find("QuantumStatue1").GetComponent<SocketedQuantumObject>();
         _quantumObject2 = transform.Find("QuantumStatue2").GetComponent<SocketedQuantumObject>();
         _quantumObject3 = transform.Find("QuantumStatue3").GetComponent<SocketedQuantumObject>();
@@ -47,34 +33,25 @@ public class ERQuantumPuzzleController : MonoBehaviour
             emptySocketObject.GetComponent<MeshRenderer>().material.color = Color.yellow;
         }
 
-        _onQuantumStateChanged += OnQuantumObjectStateCollapse;
-
         EscapeRoomJam4.WriteDebug($"{nameof(ERQuantumPuzzleController)} - The correct answer is red, blue, green, yellow");
     }
 
-    public void OnDestroy()
+    /// <summary>
+    /// Call this from an interaction volume, and if its true give the player a key
+    /// </summary>
+    /// <returns></returns>
+    public bool CheckIfSolved()
     {
-        _onQuantumStateChanged -= OnQuantumObjectStateCollapse;
-    }
-
-    public void Update()
-    {
-        if (_flagCheckWhenAllVisible)
+        if (TestStates())
         {
-            if (_quantumObject1.IsVisible() && _quantumObject2.IsVisible() && _quantumObject3.IsVisible()) 
-            {
-                _flagCheckWhenAllVisible = false;
-                if (TestStates())
-                {
-                    // Only lock in a solution if the player is looking so it doesn't get solved behind their back
-                    EscapeRoomJam4.WriteDebug($"{nameof(ERQuantumPuzzleController)} - puzzle complete!");
-                    _quantumObject1.SetIsQuantum(false);
-                    _quantumObject2.SetIsQuantum(false);
-                    _quantumObject3.SetIsQuantum(false);
-                    Solved?.Invoke();
-                }
-            }
+            EscapeRoomJam4.WriteDebug($"{nameof(ERQuantumPuzzleController)} - puzzle complete!");
+            _quantumObject1.SetIsQuantum(false);
+            _quantumObject2.SetIsQuantum(false);
+            _quantumObject3.SetIsQuantum(false);
+
+            return true;
         }
+        return false;
     }
 
     private bool TestStates()
@@ -85,22 +62,5 @@ public class ERQuantumPuzzleController : MonoBehaviour
             _quantumObject1._occupiedSocket.name == "Socket 0" &&
             _quantumObject2._occupiedSocket.name == "Socket 1" &&
             _quantumObject3._occupiedSocket.name == "Socket 2";
-    }
-
-    private void OnQuantumObjectStateCollapse(QuantumObject obj)
-    {
-        if (obj.GetAttachedOWRigidbody() == _planetRigidBody)
-        {
-            EscapeRoomJam4.WriteDebug($"{nameof(ERQuantumPuzzleController)} - {obj.name} moved");
-            _flagCheckWhenAllVisible = true;
-        }
-    }
-
-    [HarmonyPostfix]
-    [HarmonyPatch(typeof(QuantumSocket), nameof(QuantumSocket.SetQuantumObject))]
-    private static void QuantumSocket_SetQuantumObject(QuantumSocket __instance, QuantumObject qObj)
-    {
-        // Bit hacky, but theres no event on QuantumSockets or QuantumObjects for when they change as far as I can tell
-        _onQuantumStateChanged?.Invoke(qObj);
     }
 }

@@ -26,7 +26,7 @@ namespace EscapeRoomJam4
             NewHorizons.LoadConfigs(this);
             NewHorizons.GetStarSystemLoadedEvent().AddListener(OnStarSystemLoaded);
 
-            new Harmony("xenandWyrm.EscapeRoomJam4").PatchAll(Assembly.GetExecutingAssembly());
+            new Harmony("xen.EscapeRoomJam4").PatchAll(Assembly.GetExecutingAssembly());
         }
 
         public void OnStarSystemLoaded(string system)
