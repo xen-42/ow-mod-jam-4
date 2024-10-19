@@ -1,0 +1,68 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "EscapeShip",
+    "starSystem": "EscapeSystem",
+    "Base": {
+        "centerOfSolarSystem": true,
+        "surfaceGravity": 0,
+        "groundSize": 0,
+        "surfaceSize": 400,
+        "showMinimap": false
+    },
+    "canShowOnTitle": false,
+    "Atmosphere": {
+        "hasOxygen": true
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/bundles/escapeship",
+                "path": "Assets/Jam4/Prefabs/EscapeShip.prefab",
+                "keepLoaded": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "isDefault": true,
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": 0
+                },
+                "offset": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": -90,
+                    "z": 0
+                },
+                "startWithSuit": true
+            }
+        ],
+        "shipSpawnPoints": [
+            {
+                "isDefault": true,
+                "position": {
+                    "x": 75,
+                    "y": 5,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": -90,
+                    "z": 0
+                }
+            }
+        ]
+    }
+}
