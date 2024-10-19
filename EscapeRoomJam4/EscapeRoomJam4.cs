@@ -20,24 +20,30 @@ namespace EscapeRoomJam4
 
         public void Start()
         {
-            // Starting here, you'll have access to OWML's mod helper.
             ModHelper.Console.WriteLine($"My mod {nameof(EscapeRoomJam4)} is loaded!", MessageType.Success);
 
-            // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
+            NewHorizons.GetStarSystemLoadedEvent().AddListener(OnStarSystemLoaded);
 
             new Harmony("xenandWyrm.EscapeRoomJam4").PatchAll(Assembly.GetExecutingAssembly());
-
-            // Example of accessing game code.
-            OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
-            LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
         }
 
-        public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
+        public void OnStarSystemLoaded(string system)
         {
-            if (newScene != OWScene.SolarSystem) return;
-            ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+            if (system == "xen.EscapeRoomJam4")
+            {
+                // Quantum Puzzle
+                NewHorizons.GetPlanet("Test Planet").transform.Find("Sector/QuantumPuzzle").gameObject.AddComponent<ERQuantumPuzzleController>();
+            }
         }
+
+        public static void WriteDebug(string line)
+        {
+#if DEBUG
+            Instance.ModHelper.Console.WriteLine($"DEBUG: {line}", MessageType.Info);
+#endif
+        }
+
     }
 }

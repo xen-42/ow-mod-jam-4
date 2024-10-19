@@ -1,0 +1,26 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Jam 4 Star",
+  "starSystem": "xen.EscapeRoomJam4",
+  "Base": {
+    "surfaceGravity": 100,
+    "surfaceSize": 1000,
+    "gravityFallOff": "inverseSquared",
+    "centerOfSolarSystem": true
+  },
+  "Orbit": {
+    "showOrbitLine": false,
+    "isStatic": true
+  },
+  "Star": {
+    "size": 200,
+    "tint": {
+      "r": 200,
+      "g": 70,
+      "b": 60,
+      "a": 255
+    },
+    "solarLuminosity": 0.5,
+    "stellarDeathType": "none"
+  }
+}
