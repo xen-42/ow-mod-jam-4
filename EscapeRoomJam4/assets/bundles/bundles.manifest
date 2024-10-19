@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 2404891517
+CRC: 3161216612
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: escapeship
+      Dependencies: {}
+    Info_1:
+      Name: quantumpuzzle
       Dependencies: {}
