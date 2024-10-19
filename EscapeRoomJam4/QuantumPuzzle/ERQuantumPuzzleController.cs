@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using EscapeRoomJam4.QuantumPuzzle;
+using HarmonyLib;
+using UnityEngine;
 
 namespace EscapeRoomJam4;
 
 public class ERQuantumPuzzleController : MonoBehaviour
 {
-    private SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
+    private static SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
 
     public void Start()
     {
@@ -28,6 +30,20 @@ public class ERQuantumPuzzleController : MonoBehaviour
             emptySocketObject.transform.parent = socket.transform;
             emptySocketObject.transform.localPosition = Vector3.zero;
             emptySocketObject.transform.localRotation = Quaternion.identity;
+
+            // Need to add a visibility tracker for this socket else it doesn't stay "empty" when photographed
+            socket.SetActive(false);
+            var tracker = new GameObject("VisibilityTracker");
+            tracker.transform.parent = socket.transform;
+            tracker.transform.localPosition = Vector3.zero;
+            tracker.transform.localRotation = Quaternion.identity;
+            var box = tracker.AddComponent<BoxShape>();
+            box.size = new Vector3(0.2f, 0.6f, 0.2f);
+            box.center = new Vector3(0, 0.3f, 0);
+            tracker.AddComponent<ShapeVisibilityTracker>();
+            // Using a quantum object bc it can be locked by camera
+            socket._visibilityObject = socket.gameObject.AddComponent<SnapshotLockableVisibilityObject>();
+            socket.SetActive(true);
 
             // Recolour for test
             emptySocketObject.GetComponent<MeshRenderer>().material.color = Color.yellow;
