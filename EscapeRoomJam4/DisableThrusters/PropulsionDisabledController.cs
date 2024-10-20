@@ -24,7 +24,7 @@ public class PropulsionDisabledController : MonoBehaviour
         NotificationManager.SharedInstance.UnpinNotification(_shipAndJetpackDisabled);
         foreach (var thruster in _shipThrusters)
         {
-            thruster._thrusterModel.SetThrusterBankEnabled(thruster._thrusterBank, true);
+            thruster._thrusterModel?.SetThrusterBankEnabled(thruster._thrusterBank, true);
         }
     }
 
@@ -37,7 +37,7 @@ public class PropulsionDisabledController : MonoBehaviour
             // Ensure that they aren't damaged else they could be repaired to be re-enabled
             thruster.SetDamaged(false);
 
-            thruster._thrusterModel.SetThrusterBankEnabled(thruster._thrusterBank, false);
+            thruster._thrusterModel?.SetThrusterBankEnabled(thruster._thrusterBank, false);
         }
     }
 }
