@@ -5,10 +5,14 @@ namespace EscapeRoomJam4;
 
 public class QuantumPuzzleController : Puzzle
 {
+    public static ERQuantumPuzzleController instance;
+
     private static SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
 
     public void Start()
     {
+        instance = this;
+
         _quantumObject1 = transform.Find("QuantumStatue1").GetComponent<SocketedQuantumObject>();
         _quantumObject2 = transform.Find("QuantumStatue2").GetComponent<SocketedQuantumObject>();
         _quantumObject3 = transform.Find("QuantumStatue3").GetComponent<SocketedQuantumObject>();
