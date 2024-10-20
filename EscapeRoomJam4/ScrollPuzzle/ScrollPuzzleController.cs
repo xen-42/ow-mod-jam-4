@@ -9,7 +9,7 @@ public class ScrollPuzzleController : Puzzle
     public static NomaiTextLine Green { get; private set; }
     public static NomaiTextLine Blue { get; private set; }
 
-    private ScrollSocket _redSocket, _greenSocket, _blueSocket;
+    public static ScrollSocket redSocket, greenSocket, blueSocket;
 
     private ScrollItem _redScroll, _greenScroll, _blueScroll;
 
@@ -27,19 +27,19 @@ public class ScrollPuzzleController : Puzzle
         _greenScroll = transform.Find("GreenScroll").GetComponent<ScrollItem>();
         _blueScroll = transform.Find("BlueScroll").GetComponent<ScrollItem>();
 
-        _redSocket = transform.Find("RedWhiteboard").GetComponentInChildren<ScrollSocket>();
-        _greenSocket = transform.Find("GreenWhiteboard").GetComponentInChildren<ScrollSocket>();
-        _blueSocket = transform.Find("BlueWhiteboard").GetComponentInChildren<ScrollSocket>();
+        redSocket = transform.Find("RedWhiteboard").GetComponentInChildren<ScrollSocket>();
+        greenSocket = transform.Find("GreenWhiteboard").GetComponentInChildren<ScrollSocket>();
+        blueSocket = transform.Find("BlueWhiteboard").GetComponentInChildren<ScrollSocket>();
 
-        _redSocket.OnSocketableDonePlacing += ScrollInserted;
-        _greenSocket.OnSocketableDonePlacing += ScrollInserted;
-        _blueSocket.OnSocketableDonePlacing += ScrollInserted;
+        redSocket.OnSocketableDonePlacing += ScrollInserted;
+        greenSocket.OnSocketableDonePlacing += ScrollInserted;
+        blueSocket.OnSocketableDonePlacing += ScrollInserted;
 
         Solved.AddListener(() =>
         {
-            _redSocket.EnableInteraction(false);
-            _greenSocket.EnableInteraction(false);
-            _blueSocket.EnableInteraction(false);
+            redSocket.EnableInteraction(false);
+            greenSocket.EnableInteraction(false);
+            blueSocket.EnableInteraction(false);
         });
     }
 
@@ -50,6 +50,6 @@ public class ScrollPuzzleController : Puzzle
 
     public override bool IsSolved()
     {
-        return _redSocket._socketedItem == _redScroll && _greenSocket._socketedItem == _greenScroll && _blueSocket._socketedItem == _blueScroll;
+        return redSocket._socketedItem == _redScroll && greenSocket._socketedItem == _greenScroll && blueSocket._socketedItem == _blueScroll;
     }
 }

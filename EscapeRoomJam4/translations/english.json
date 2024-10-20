@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
   "OtherDictionary": {
-    "PROPULSION_DISABLED_NOTIF": "ALL PROPULSION SYSTEMS DISABLED"
+    "PROPULSION_DISABLED_NOTIF": "ALL PROPULSION SYSTEMS DISABLED",
+    "BLUE_SOCKET": "(Blue Socket)",
+    "GREEN_SOCKET": "(Green Socket)",
+    "RED_SOCKET": "(Red Socket)"
   }
 }
