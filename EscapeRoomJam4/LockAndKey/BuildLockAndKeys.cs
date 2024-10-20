@@ -32,6 +32,13 @@ public static class BuildLockAndKeys
             socketVisual.transform.parent = socketGO.transform;
             socketVisual.transform.localPosition = Vector3.zero;
             socketVisual.transform.localRotation = Quaternion.identity;
+
+            // Once a key is placed into a lock it cannot be removed
+            var socket = socketGO.GetComponentInChildren<OWItemSocket>();
+            socket.OnSocketablePlaced += (OWItem item) =>
+            {
+                socket.EnableInteraction(false);
+            };
         }
         foreach (var keyData in data.keys)
         {

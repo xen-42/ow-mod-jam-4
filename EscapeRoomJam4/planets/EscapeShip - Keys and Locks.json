@@ -6,9 +6,9 @@
     "lockAndKey": {
       "locks": [
         {
-          "itemType": "Layer1Key1",
+          "itemType": "Layer1Key",
           "name": "Lock 1",
-          "scale": 0.3,
+          "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
           "position": {
@@ -21,13 +21,64 @@
             "y": 90,
             "z": 0
           }
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Lock 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",
+          "position": {
+            "x": -19,
+            "y": 1.6,
+            "z": 1.6
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 270
+          }
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Lock 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",
+          "position": {
+            "x": -21,
+            "y": 1.6,
+            "z": 1.6
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 270
+          }
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Lock 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",
+          "position": {
+            "x": -23,
+            "y": 1.6,
+            "z": 1.6
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 270
+          }
         }
       ],
       "keys": [
         {
-          "itemType": "Layer1Key1",
+          "itemType": "Layer1Key",
           "name": "Key 1",
-          "scale": 0.3,
+          "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
           "position": {
@@ -39,6 +90,23 @@
             "x": 0,
             "y": 0,
             "z": 0
+          }
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Key 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
+          "position": {
+            "x": 0,
+            "y": 0.45,
+            "z": 14.55
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 180
           }
         }
       ]
