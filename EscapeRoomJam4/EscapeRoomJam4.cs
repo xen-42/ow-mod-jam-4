@@ -38,7 +38,7 @@ namespace EscapeRoomJam4
             if (system == ESCAPE_SYSTEM)
             {
                 // Quantum Puzzle
-                NewHorizons.GetPlanet("Test Planet").transform.Find("Sector/QuantumPuzzle").gameObject.AddComponent<ERQuantumPuzzleController>();
+                NewHorizons.GetPlanet("EscapeShip").transform.Find("Sector/QuantumPuzzle").gameObject.AddComponent<ERQuantumPuzzleController>();
             }
         }
 

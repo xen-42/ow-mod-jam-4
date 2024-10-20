@@ -1,0 +1,113 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "EscapeShip",
+  "starSystem": "xen.EscapeSystem",
+  "Props": {
+    "quantumGroups": [
+      {
+        "id": "QuantumPuzzle",
+        "type": "sockets",
+        "sockets": [
+          {
+            "position": {
+              "x": -4.5,
+              "y": 2,
+              "z": 19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -1.5,
+              "y": 2,
+              "z": 19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 1.5,
+              "y": 2,
+              "z": 19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 4.5,
+              "y": 2,
+              "z": 19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        ]
+      }
+    ],
+    "details": [
+      {
+        "rename": "QuantumPuzzle"
+      },
+      {
+        "quantumGroupID": "QuantumPuzzle",
+        "rename": "QuantumStatue1",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumShip.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "quantumGroupID": "QuantumPuzzle",
+        "rename": "QuantumStatue2",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumPyramid.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "quantumGroupID": "QuantumPuzzle",
+        "rename": "QuantumStatue3",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumBall.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "rename": "QuantumStatueEmptyState1",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "rename": "QuantumStatueEmptyState2",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "rename": "QuantumStatueEmptyState3",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      },
+      {
+        "rename": "QuantumStatueEmptyState4",
+        "parentPath": "Sector/QuantumPuzzle",
+        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
+        "assetBundle": "assets/bundles/quantumpuzzle"
+      }
+    ]
+  }
+}

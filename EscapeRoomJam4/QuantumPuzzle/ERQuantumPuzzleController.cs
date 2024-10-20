@@ -1,5 +1,5 @@
 ﻿using EscapeRoomJam4.QuantumPuzzle;
-using HarmonyLib;
+using System;
 using UnityEngine;
 
 namespace EscapeRoomJam4;
@@ -7,6 +7,8 @@ namespace EscapeRoomJam4;
 public class ERQuantumPuzzleController : MonoBehaviour
 {
     private static SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
+
+    public Action Solved;
 
     public void Start()
     {
@@ -53,10 +55,10 @@ public class ERQuantumPuzzleController : MonoBehaviour
     }
 
     /// <summary>
-    /// Call this from an interaction volume, and if its true give the player a key
+    /// Call this from an interaction point
+    /// Make sure to add to the Solved action to make it drop a key
     /// </summary>
-    /// <returns></returns>
-    public bool CheckIfSolved()
+    public void CheckIfSolved()
     {
         if (TestStates())
         {
@@ -65,9 +67,8 @@ public class ERQuantumPuzzleController : MonoBehaviour
             _quantumObject2.SetIsQuantum(false);
             _quantumObject3.SetIsQuantum(false);
 
-            return true;
+            Solved?.Invoke();
         }
-        return false;
     }
 
     private bool TestStates()
