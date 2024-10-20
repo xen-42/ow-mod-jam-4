@@ -81,15 +81,15 @@ namespace EscapeRoomJam4
         /// </summary>
         object QueryBody(Type outType, string bodyName, string path);
 
-        /// <summary>
-        /// Uses JSONPath to query the current star system
-        /// </summary>
-        object QuerySystem(Type outType, string path);
-
         ///<summary>
         /// Uses JSONPath to query a body
         /// </summary>
         T QueryBody<T>(string bodyName, string path);
+
+        /// <summary>
+        /// Uses JSONPath to query the current star system
+        /// </summary>
+        object QuerySystem(Type outType, string path);
 
         ///<summary>
         /// Uses JSONPath to query the current star system
@@ -108,7 +108,7 @@ namespace EscapeRoomJam4
         /// This is the same as using Props->details in a config, but also returns the spawned gameObject to you.
         /// </summary>
         GameObject SpawnObject(IModBehaviour mod, GameObject planet, Sector sector, string propToCopyPath, Vector3 position, Vector3 eulerAngles,
-          float scale, bool alignWithNormal);
+            float scale, bool alignWithNormal);
 
         /// <summary>
         /// Allows you to spawn an AudioSignal on a planet.
@@ -116,8 +116,8 @@ namespace EscapeRoomJam4
         /// This method will not set its position. You will have to do that with the returned object.
         /// </summary>
         AudioSignal SpawnSignal(IModBehaviour mod, GameObject root, string audio, string name, string frequency,
-          float sourceRadius = 1f, float detectionRadius = 20f, float identificationRadius = 10f, bool insideCloak = false,
-          bool onlyAudibleToScope = true, string reveals = "");
+            float sourceRadius = 1f, float detectionRadius = 20f, float identificationRadius = 10f, bool insideCloak = false,
+            bool onlyAudibleToScope = true, string reveals = "");
 
         /// <summary>
         /// Allows you to spawn character dialogue on a planet. Also returns the RemoteDialogueTrigger if remoteTriggerRadius is specified.
@@ -125,8 +125,8 @@ namespace EscapeRoomJam4
         /// This method will not set the position of the dialogue or remote trigger. You will have to do that with the returned objects.
         /// </summary>
         (CharacterDialogueTree, RemoteDialogueTrigger) SpawnDialogue(IModBehaviour mod, GameObject root, string xmlFile, float radius = 1f,
-          float range = 1f, string blockAfterPersistentCondition = null, float lookAtRadius = 1f, string pathToAnimController = null,
-          float remoteTriggerRadius = 0f);
+            float range = 1f, string blockAfterPersistentCondition = null, float lookAtRadius = 1f, string pathToAnimController = null,
+            float remoteTriggerRadius = 0f);
         #endregion
 
         #region Load json/xml directly
@@ -146,7 +146,8 @@ namespace EscapeRoomJam4
         void DefineStarSystem(string name, string config, IModBehaviour mod);
 
         /// <summary>
-        /// Allows creation of dialogue by directly passing the xml and dialogueInfo json contents as strings
+        /// Allows creation of dialogue by directly passing the xml and dialogueInfo json contents as strings. 
+        /// Must be called at least 2 frames before entering dialogue if you're using ReuseDialogueOptionsFrom
         /// </summary>
         /// <param name="textAssetID">TextAsset name used for compatibility with voice mod. Just has to be a unique identifier.</param>
         /// <param name="xml">The contents of the dialogue xml file as a string</param>
@@ -214,5 +215,12 @@ namespace EscapeRoomJam4
         /// <param name="mod"></param>
         /// <param name="filePath"></param>
         void AddSubtitle(IModBehaviour mod, string filePath);
+
+        /// <summary>
+        /// Whatever system the player is warping to next, they will spawn at the spawn point with this ID
+        /// Gets reset after warping. Is also overriden by entering a system-changing black hole or warp volume by their `spawnPointID`
+        /// </summary>
+        /// <param name="id"></param>
+        void SetNextSpawnID(string id);
     }
 }

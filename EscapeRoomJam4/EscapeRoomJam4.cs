@@ -1,4 +1,5 @@
 ﻿using EscapeRoomJam4.Jetpack;
+using EscapeRoomJam4.LockAndKey;
 using EscapeRoomJam4.ScrollPuzzle;
 using HarmonyLib;
 using OWML.Common;
@@ -52,6 +53,12 @@ namespace EscapeRoomJam4
                 // TODO: Hook this up to outer door opening/closing
                 dreamworldSkyController.TurnOn();
                 propulsionDisabledController.TurnOff();
+
+                var data = NewHorizons.QueryBody<LockAndKeyData>("EscapeShip", "$.extras.lockAndKey");
+                if (data != null)
+                {
+                    BuildLockAndKeys.Make(NewHorizons.GetPlanet("EscapeShip"), data);
+                }
             }
         }
 

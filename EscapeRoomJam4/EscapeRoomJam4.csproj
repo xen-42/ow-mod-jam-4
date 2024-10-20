@@ -15,6 +15,12 @@
     <PackageReference Include="OuterWildsGameLibs" Version="1.1.15.1018" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="NewHorizons">
+      <HintPath>lib\NewHorizons.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="default-config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -53,6 +59,9 @@
     <None Include="assets\text\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityProjectPath)')">
     <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityProjectPath)&quot;" />
