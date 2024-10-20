@@ -47,6 +47,9 @@
     <None Include="assets\bundles\quantumpuzzle">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="assets\text\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityProjectPath)')">
     <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityProjectPath)&quot;" />

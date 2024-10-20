@@ -24,6 +24,7 @@ namespace EscapeRoomJam4.QuantumPuzzle
         {
             if (QuantumPuzzleController.instance.IsSolved())
             {
+                QuantumPuzzleController.instance.CheckIfSolved();
                 animator.SetTrigger("PressCorrect");
                 StartCoroutine(ChangeColor(Color.green, 1));
                 interactReceiver.DisableInteraction();

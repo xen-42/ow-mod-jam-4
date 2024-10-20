@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using EscapeRoomJam4.ScrollPuzzle;
+using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
@@ -38,7 +39,9 @@ namespace EscapeRoomJam4
             if (system == ESCAPE_SYSTEM)
             {
                 // Quantum Puzzle
-                NewHorizons.GetPlanet("EscapeShip").transform.Find("Sector/QuantumPuzzle").gameObject.AddComponent<QuantumPuzzleController>();
+                var escapeShip = NewHorizons.GetPlanet("EscapeShip").transform;
+                escapeShip.Find("Sector/QuantumPuzzle").gameObject.AddComponent<QuantumPuzzleController>();
+                escapeShip.Find("Sector/ScrollPuzzle").gameObject.AddComponent<ScrollPuzzleController>();
             }
         }
 

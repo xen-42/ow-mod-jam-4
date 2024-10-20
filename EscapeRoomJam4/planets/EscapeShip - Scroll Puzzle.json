@@ -1,0 +1,131 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "EscapeShip",
+  "starSystem": "xen.EscapeSystem",
+  "Props": {
+    "details": [
+      {
+        "rename": "ScrollPuzzle"
+      }
+    ],
+    "translatorText": [
+      {
+        "rename": "RedWhiteboard",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "whiteboard",
+        "position": {
+          "x": 4.5,
+          "y": 2,
+          "z": -20
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "GreenWhiteboard",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "whiteboard",
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": -20.01
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "BlueWhiteboard",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "whiteboard",
+        "position": {
+          "x": -4.5,
+          "y": 2,
+          "z": -20
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "RedScroll",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "scroll",
+        "position": {
+          "x": 3.737383,
+          "y": 1.998687,
+          "z": -18.41651
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0.7613425,
+          "z": 0
+        },
+        "xmlFile": "assets/text/RedScroll.xml",
+        "seed": 1,
+        "arcInfo": [
+          {
+            "type": "child",
+            "zRotation": 0,
+            "mirror": false
+          }
+        ]
+      },
+      {
+        "rename": "GreenScroll",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "scroll",
+        "position": {
+          "x": 0.4136737,
+          "y": 1.998687,
+          "z": -19.21601
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0.7612923,
+          "z": 0
+        },
+        "xmlFile": "assets/text/GreenScroll.xml",
+        "seed": 6,
+        "arcInfo": [
+          {
+            "type": "child",
+            "zRotation": 0,
+            "mirror": true
+          }
+        ]
+      },
+      {
+        "rename": "BlueScroll",
+        "parentPath": "Sector/ScrollPuzzle",
+        "type": "scroll",
+        "position": {
+          "x": -3.643464,
+          "y": 1.998687,
+          "z": -18.42117
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0.7612103,
+          "z": 0
+        },
+        "xmlFile": "assets/text/BlueScroll.xml",
+        "seed": 3,
+        "arcInfo": [
+          {
+            "type": "child",
+            "zRotation": 66,
+            "mirror": false
+          }
+        ]
+      }
+    ]
+  }
+}
