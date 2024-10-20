@@ -22,16 +22,18 @@ namespace EscapeRoomJam4.QuantumPuzzle
 
         private void OnPressInteract()
         {
-            if (ERQuantumPuzzleController.instance.CheckIfSolved())
+            if (QuantumPuzzleController.instance.IsSolved())
             {
                 animator.SetTrigger("PressCorrect");
                 StartCoroutine(ChangeColor(Color.green, 1));
+                interactReceiver.DisableInteraction();
             }
             else
             {
                 animator.SetTrigger("PressIncorrect");
                 StartCoroutine(ChangeColor(Color.red, 1));
                 StartCoroutine(ChangeColor(Color.blue, 2));
+                StartCoroutine(ChangeInteration());
             }
         }
 
@@ -40,6 +42,13 @@ namespace EscapeRoomJam4.QuantumPuzzle
             yield return new WaitForSeconds(delay);
             renderer.material.color = color;
             renderer.material.SetVector("_EmissionColor", color);
+        }
+
+        private IEnumerator ChangeInteration()
+        {
+            interactReceiver.DisableInteraction();
+            yield return new WaitForSeconds(2);
+            interactReceiver.EnableInteraction();
         }
     }
 }

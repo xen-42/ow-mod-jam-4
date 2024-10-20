@@ -68,45 +68,52 @@
         "rename": "QuantumStatue1",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumShip.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "quantumGroupID": "QuantumPuzzle",
         "rename": "QuantumStatue2",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumPyramid.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "quantumGroupID": "QuantumPuzzle",
         "rename": "QuantumStatue3",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumBall.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "rename": "QuantumStatueEmptyState1",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "rename": "QuantumStatueEmptyState2",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "rename": "QuantumStatueEmptyState3",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       },
       {
         "rename": "QuantumStatueEmptyState4",
         "parentPath": "Sector/QuantumPuzzle",
         "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle"
+        "assetBundle": "assets/bundles/quantumpuzzle",
+        "scale": 3
       }
     ]
   }

@@ -5,7 +5,7 @@ namespace EscapeRoomJam4;
 
 public class QuantumPuzzleController : Puzzle
 {
-    public static ERQuantumPuzzleController instance;
+    public static QuantumPuzzleController instance;
 
     private static SocketedQuantumObject _quantumObject1, _quantumObject2, _quantumObject3;
 
