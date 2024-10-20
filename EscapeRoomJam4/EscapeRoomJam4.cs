@@ -1,8 +1,10 @@
-﻿using EscapeRoomJam4.ScrollPuzzle;
+﻿using EscapeRoomJam4.Jetpack;
+using EscapeRoomJam4.ScrollPuzzle;
 using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
+using UnityEngine;
 
 namespace EscapeRoomJam4
 {
@@ -42,6 +44,14 @@ namespace EscapeRoomJam4
                 var escapeShip = NewHorizons.GetPlanet("EscapeShip").transform;
                 escapeShip.Find("Sector/QuantumPuzzle").gameObject.AddComponent<QuantumPuzzleController>();
                 escapeShip.Find("Sector/ScrollPuzzle").gameObject.AddComponent<ScrollPuzzleController>();
+
+                var propulsionDisabledController = escapeShip.gameObject.AddComponent<PropulsionDisabledController>();
+                var dreamworldSkyController = escapeShip.gameObject.AddComponent<DreamworldSkyController>();
+                escapeShip.gameObject.AddComponent<PropulsionDisabledNotification>();
+
+                // TODO: Hook this up to outer door opening/closing
+                dreamworldSkyController.TurnOn();
+                propulsionDisabledController.TurnOff();
             }
         }
 
