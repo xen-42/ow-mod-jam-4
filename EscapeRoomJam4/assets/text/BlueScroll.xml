@@ -3,7 +3,7 @@
     <ID>1</ID>
     <LocationA/>
     <Text>
-      <![CDATA[<color=red>ERROR</color>]]> - <![CDATA[<color=#5555FF>MALFORMATTED STRING</color>]]>
+      <![CDATA[<color=red>ERROR - MALFORMATTED STRING</color>]]><![CDATA[<color=#7799FF>;BLUE</color>]]>
     </Text>
   </TextBlock>
 </NomaiObject>
