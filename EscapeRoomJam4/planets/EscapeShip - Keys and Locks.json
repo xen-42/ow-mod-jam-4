@@ -7,14 +7,48 @@
       "locks": [
         {
           "itemType": "Layer1Key",
-          "name": "Lock 1",
+          "name": "Layer 1 - Lock 1",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
           "position": {
-            "x": 32,
-            "y": 1,
-            "z": 1.5
+            "x": 30.9,
+            "y": 1.5,
+            "z": 2.75
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        },
+        {
+          "itemType": "Layer1Key",
+          "name": "Layer 1 - Lock 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
+          "position": {
+            "x": 30.9,
+            "y": 1.5,
+            "z": 3.5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        },
+        {
+          "itemType": "Layer1Key",
+          "name": "Layer 1 - Lock 3",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
+          "position": {
+            "x": 30.9,
+            "y": 1.5,
+            "z": 4.25
           },
           "rotation": {
             "x": 0,
@@ -24,7 +58,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Lock 2",
+          "name": "Layer 2 - Lock 1",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",
@@ -41,7 +75,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Lock 2",
+          "name": "Layer 2 - Lock 2",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",
@@ -58,7 +92,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Lock 2",
+          "name": "Layer 2 - Lock 3",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Lock.prefab",

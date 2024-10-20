@@ -59,14 +59,14 @@
         "parentPath": "Sector/ScrollPuzzle",
         "type": "scroll",
         "position": {
-          "x": 3.737383,
-          "y": 1.998687,
-          "z": -18.41651
+          "x": 17.0481,
+          "y": 0.1329,
+          "z": -4.2995
         },
         "rotation": {
           "x": 0,
-          "y": 0.7613425,
-          "z": 0
+          "y": 38.6774,
+          "z": 63.4349
         },
         "xmlFile": "assets/text/RedScroll.xml",
         "seed": 1,
@@ -83,14 +83,14 @@
         "parentPath": "Sector/ScrollPuzzle",
         "type": "scroll",
         "position": {
-          "x": 0.4136737,
-          "y": 1.998687,
-          "z": -19.21601
+          "x": 58.1356,
+          "y": 0.1342,
+          "z": -28.978
         },
         "rotation": {
           "x": 0,
-          "y": 0.7612923,
-          "z": 0
+          "y": 28.1218,
+          "z": 63.4349
         },
         "xmlFile": "assets/text/GreenScroll.xml",
         "seed": 6,
@@ -107,14 +107,14 @@
         "parentPath": "Sector/ScrollPuzzle",
         "type": "scroll",
         "position": {
-          "x": -3.643464,
-          "y": 1.998687,
-          "z": -18.42117
+          "x": -16.3188,
+          "y": 0.1329,
+          "z": 3.5426
         },
         "rotation": {
           "x": 0,
-          "y": 0.7612103,
-          "z": 0
+          "y": 154.2585,
+          "z": 63.435
         },
         "xmlFile": "assets/text/BlueScroll.xml",
         "seed": 3,
