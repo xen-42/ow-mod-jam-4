@@ -46,7 +46,9 @@ namespace EscapeRoomJam4
                 // Quantum Puzzle
                 var escapeShip = NewHorizons.GetPlanet("EscapeShip").transform;
                 escapeShip.Find("Sector/QuantumPuzzle").gameObject.AddComponent<QuantumPuzzleController>();
-                escapeShip.Find("Sector/ScrollPuzzle").gameObject.AddComponent<ScrollPuzzleController>();
+                var scrollPuzzle = escapeShip.Find("Sector/ScrollPuzzle").gameObject.AddComponent<ScrollPuzzleController>();
+                var scrollPuzzleChest = escapeShip.transform.Find("Sector/EscapeShip/NomaiChest").GetComponent<NomaiChest>();
+                scrollPuzzle.Solved.AddListener(scrollPuzzleChest.Open);
 
                 var propulsionDisabledController = escapeShip.gameObject.AddComponent<PropulsionDisabledController>();
                 var dreamworldSkyController = escapeShip.gameObject.AddComponent<DreamworldSkyController>();
