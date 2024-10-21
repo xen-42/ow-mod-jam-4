@@ -140,7 +140,7 @@
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
-          "boxPath": "Sector/EscapeShip/NomaiChest"
+          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/ScrollPuzzleNomaiChest"
         }
       ]
     }
