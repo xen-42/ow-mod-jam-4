@@ -4,6 +4,7 @@ using EscapeRoomJam4.Jetpack;
 using EscapeRoomJam4.LockAndKey;
 using EscapeRoomJam4.ScrollPuzzle;
 using HarmonyLib;
+using NewHorizons.Utility.Files;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
@@ -67,6 +68,17 @@ namespace EscapeRoomJam4
                 {
                     BuildLockAndKeys.Make(NewHorizons.GetPlanet("EscapeShip"), data);
                 }
+
+                var tex = ImageUtilities.GetTexture(this, "assets/images/ceiling_mural.png");
+                var ceilingMural = GameObject.CreatePrimitive(PrimitiveType.Quad);
+                var ceilingMuralMF = ceilingMural.GetComponent<MeshRenderer>();
+                ceilingMuralMF.material.mainTexture = tex;
+                ceilingMuralMF.material.shader = Shader.Find("UI/Unlit/Transparent");
+                ceilingMural.transform.parent = escapeShip.transform.Find("Sector");
+                ceilingMural.transform.localPosition = new Vector3(0, 7.84f, 0);
+                ceilingMural.transform.localRotation = Quaternion.Euler(270, 0, 90);
+                ceilingMural.transform.localScale = new Vector3(8, 3.2f, 1);
+                ceilingMural.gameObject.layer = LayerMask.NameToLayer("VisibleToProbe");
             }
         }
 

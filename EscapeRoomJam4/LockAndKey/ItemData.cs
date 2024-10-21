@@ -11,4 +11,9 @@ public class ItemData
     public float scale;
     public string assetBundle;
     public string path;
+
+    /// <summary>
+    /// Only used for keys
+    /// </summary>
+    public string boxPath;
 }

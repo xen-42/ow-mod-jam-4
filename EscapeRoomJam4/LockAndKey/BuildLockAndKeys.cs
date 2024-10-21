@@ -42,11 +42,12 @@ public static class BuildLockAndKeys
         }
         foreach (var keyData in data.keys)
         {
+            var parentToBox = !string.IsNullOrEmpty(keyData.boxPath);
             var itemGO = NewHorizons.Builder.Props.DetailBuilder.Make(planetGO, sector, EscapeRoomJam4.Instance, new()
             {
                 rename = keyData.name,
-                position = keyData.position,
-                rotation = keyData.rotation,
+                position = parentToBox ? new Vector3(0, 0.054f, -0.74f) : keyData.position,
+                rotation = parentToBox ? new Vector3(0, 180, 180) : keyData.rotation,
                 item = new()
                 {
                     itemType = keyData.itemType,
@@ -54,7 +55,9 @@ public static class BuildLockAndKeys
                     dropNormal = new(0, 0, 1),
                     dropOffset = new(0, 0, 0.1f),
                     colliderRadius = 0.5f
-                }
+                },
+                parentPath = keyData.boxPath,
+                isRelativeToParent = parentToBox
             });
             var itemVisual = NewHorizons.Builder.Props.DetailBuilder.Make(planetGO, sector, EscapeRoomJam4.Instance, new()
             {

@@ -128,20 +128,19 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Key 2",
+          "name": "Sandstone Key",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
-          "position": {
-            "x": 0,
-            "y": 0.45,
-            "z": 14.55
-          },
-          "rotation": {
-            "x": 0,
-            "y": 180,
-            "z": 180
-          }
+          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/QuantumStage/StageBox"
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Sandstone Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
+          "boxPath": "Sector/EscapeShip/NomaiChest"
         }
       ]
     }

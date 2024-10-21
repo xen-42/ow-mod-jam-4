@@ -1,0 +1,124 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "EscapeShip",
+  "starSystem": "xen.EscapeSystem",
+  "Props": {
+    "details": [
+      {
+        "rename": "GhostMatter"
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": -3.854538,
+          "y": 7.798687,
+          "z": -6.81425
+        },
+        "rotation": {
+          "x": 0,
+          "y": 329.5551,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": 7.015858,
+          "y": 7.798687,
+          "z": 0.3557777
+        },
+        "rotation": {
+          "x": 0,
+          "y": 282.9849,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": -7.229483,
+          "y": 7.798687,
+          "z": 6.431378
+        },
+        "rotation": {
+          "x": 0,
+          "y": 237.3651,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": 7.015858,
+          "y": 7.798687,
+          "z": 0.3557777
+        },
+        "rotation": {
+          "x": 0,
+          "y": 282.9849,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": -8.053011,
+          "y": 7.798687,
+          "z": -2.449989
+        },
+        "rotation": {
+          "x": 0,
+          "y": 340.7823,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": -8,
+          "y": 12.7,
+          "z": -2.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 340.7823,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": 9,
+          "y": 12.7,
+          "z": -2.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 340.7823,
+          "z": 180
+        }
+      },
+      {
+        "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
+        "parentPath": "Sector/GhostMatter",
+        "position": {
+          "x": 2.5,
+          "y": 12.7,
+          "z": 9.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 340.7823,
+          "z": 180
+        }
+      }
+    ]
+  }
+}
