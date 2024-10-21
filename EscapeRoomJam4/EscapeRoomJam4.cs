@@ -52,7 +52,7 @@ namespace EscapeRoomJam4
 
                 // TODO: Hook this up to outer door opening/closing
                 dreamworldSkyController.TurnOn();
-                propulsionDisabledController.TurnOff();
+                propulsionDisabledController.TurnOn();
 
                 var data = NewHorizons.QueryBody<LockAndKeyData>("EscapeShip", "$.extras.lockAndKey");
                 if (data != null)
