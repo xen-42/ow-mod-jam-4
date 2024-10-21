@@ -17,6 +17,16 @@
           "y": 90,
           "z": 0
         }
+      },
+      {
+        "path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Pazuzu/Ghostbird_IP_ANIM",
+        "rename": "GhostBird",
+        "keepLoaded": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
       }
     ]
   }
