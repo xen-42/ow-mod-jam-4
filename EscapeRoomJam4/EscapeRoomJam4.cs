@@ -57,7 +57,8 @@ namespace EscapeRoomJam4
 
                 escapeShip.transform.Find("Sector/GhostBird").gameObject.AddComponent<GhostWalkController>();
 
-                escapeShip.transform.Find("Sector/VesselInterfacePuzzle").gameObject.AddComponent<CoordinateInterfacePuzzleController>();
+                var coordPuzzle = escapeShip.transform.Find("Sector/VesselInterfacePuzzle").gameObject.AddComponent<CoordinateInterfacePuzzleController>();
+                coordPuzzle.gameObject.AddComponent<ChromeToSandstoneReplacer>();
 
                 // TODO: Hook this up to outer door opening/closing
                 dreamworldSkyController.TurnOn();
@@ -69,6 +70,7 @@ namespace EscapeRoomJam4
                     BuildLockAndKeys.Make(NewHorizons.GetPlanet("EscapeShip"), data);
                 }
 
+                // Load in the coordinate ceiling mural manually because Unity scares me
                 var tex = ImageUtilities.GetTexture(this, "assets/images/ceiling_mural.png");
                 var ceilingMural = GameObject.CreatePrimitive(PrimitiveType.Quad);
                 var ceilingMuralMF = ceilingMural.GetComponent<MeshRenderer>();
@@ -79,6 +81,8 @@ namespace EscapeRoomJam4
                 ceilingMural.transform.localRotation = Quaternion.Euler(270, 0, 90);
                 ceilingMural.transform.localScale = new Vector3(8, 3.2f, 1);
                 ceilingMural.gameObject.layer = LayerMask.NameToLayer("VisibleToProbe");
+
+                // Modify the materials used for the vessel coordinate interface
             }
         }
 
