@@ -1,4 +1,5 @@
-﻿using EscapeRoomJam4.GhostPuzzle;
+﻿using EscapeRoomJam4.CoordinateInterfacePuzzle;
+using EscapeRoomJam4.GhostPuzzle;
 using EscapeRoomJam4.Jetpack;
 using EscapeRoomJam4.LockAndKey;
 using EscapeRoomJam4.ScrollPuzzle;
@@ -52,6 +53,8 @@ namespace EscapeRoomJam4
                 escapeShip.gameObject.AddComponent<PropulsionDisabledNotification>();
 
                 escapeShip.transform.Find("Sector/GhostBird").gameObject.AddComponent<GhostWalkController>();
+
+                escapeShip.transform.Find("Sector/VesselInterfacePuzzle").gameObject.AddComponent<CoordinateInterfacePuzzleController>();
 
                 // TODO: Hook this up to outer door opening/closing
                 dreamworldSkyController.TurnOn();
