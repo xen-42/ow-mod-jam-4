@@ -25,6 +25,203 @@
                     "z": 0
                 }
             }
+        ],
+        "signals": [
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/Jammer/SignalPoint",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "JammerSignal",
+                "audio": "assets/signals/EscapeRoomJammer.wav",
+                "detectionRadius": 60,
+                "frequency": "Traveler",
+                "identificationRadius": 20,
+                "name": "Controls Jammer"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA1",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarA1",
+                "audio": "assets/signals/PillarA1.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Groovy Arpeggio"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA2",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarA2",
+                "audio": "assets/signals/PillarA2.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Droning Arpeggio"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA3",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarA3",
+                "audio": "assets/signals/PillarA3.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Twang Arpeggio"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB1",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarA1",
+                "audio": "assets/signals/PillarB1.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Droning Chorus"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB2",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarB2",
+                "audio": "assets/signals/PillarB2.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Brass Chorus"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB3",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarB3",
+                "audio": "assets/signals/PillarB3.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Wind Chorus"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC1",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarC1",
+                "audio": "assets/signals/PillarC1.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Electronic Melody"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC2",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarC2",
+                "audio": "assets/signals/PillarC2.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Piano Melody"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC3",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarC3",
+                "audio": "assets/signals/PillarC3.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Bell Melody"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD1",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarD1",
+                "audio": "assets/signals/PillarD1.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Guitar Beat"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD2",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarD2",
+                "audio": "assets/signals/PillarD2.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Ensamble Beat"
+            },
+            {
+                "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD3",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "SignalPillarD3",
+                "audio": "assets/signals/PillarD3.wav",
+                "detectionRadius": 20,
+                "frequency": "Traveler",
+                "identificationRadius": 10,
+                "name": "Ethereal Beat"
+            }
         ]
     },
     "Spawn": {

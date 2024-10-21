@@ -22,7 +22,6 @@ namespace EscapeRoomJam4.TrianglePuzzle
         private void Start()
         {
             controller = TriangleController.instance;
-            controller.RegisterTriangle(isCorrectButton, this);
             interactionVolume = GetComponent<SingleInteractionVolume>();
             renderer = GetComponent<MeshRenderer>();
 

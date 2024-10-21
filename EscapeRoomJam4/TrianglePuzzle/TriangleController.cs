@@ -17,28 +17,12 @@ namespace EscapeRoomJam4.TrianglePuzzle
         private MeshRenderer offMaterial;
 
         private bool isSolved = false;
-        private List<TriangleButton> correctButtons;
-        private List<TriangleButton> incorrectButtons;
         private int onCorrectButtons = 0;
         private int onIncorrectButtons = 0;
 
         private void Awake()
         {
             instance = this;
-            correctButtons = new List<TriangleButton>();
-            incorrectButtons = new List<TriangleButton>();
-        }
-
-        public void RegisterTriangle(bool correct, TriangleButton button)
-        {
-            if (correct)
-            {
-                correctButtons.Add(button);
-            }
-            else
-            {
-                incorrectButtons.Add(button);
-            }
         }
 
         public void CheckTriangle(bool isCorrectTriangle, bool turningOn)
