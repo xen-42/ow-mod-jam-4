@@ -25,5 +25,10 @@ namespace EscapeRoomJam4
                 _key.EnableInteraction(true);
             }
         }
+
+        public void SecretOpen()
+        {
+            GetComponent<Animator>().SetTrigger("SecretOpen");
+        }
     }
 }
