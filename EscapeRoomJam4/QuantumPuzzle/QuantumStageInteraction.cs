@@ -19,7 +19,7 @@ namespace EscapeRoomJam4.QuantumPuzzle
 
             interactReceiver.OnPressInteract += OnPressInteract;
 
-            interactReceiver.ChangePrompt("Press");
+            interactReceiver.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
         }
 
         private void OnPressInteract()

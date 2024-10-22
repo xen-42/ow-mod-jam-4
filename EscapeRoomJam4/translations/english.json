@@ -2,9 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
   "OtherDictionary": {
     "PROPULSION_DISABLED_NOTIF": "ALL PROPULSION SYSTEMS DISABLED",
-    "PROBE_LAUNCHER_JAMMED": "SCOUT LAUNCHER JAMMED",
+    "PROBE_LAUNCHER_JAMMED": "SCOUT LAUNCHER JAMMED\nPHOTO MODE STILL OPERATIONAL",
     "BLUE_SOCKET": "(Blue Socket)",
     "GREEN_SOCKET": "(Green Socket)",
-    "RED_SOCKET": "(Red Socket)"
+    "RED_SOCKET": "(Red Socket)",
+    "PUSH_BUTTON": "Press"
   }
 }

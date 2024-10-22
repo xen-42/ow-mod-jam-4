@@ -19,7 +19,7 @@ public static class ProbeLauncherPatches
         if (EscapeRoomJam4.InEscapeSystem() && ProbeLauncherDisabled)
         {
             NotificationData data = new NotificationData(__instance._notificationFilter, 
-                EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PROBE_LAUNCHER_JAMMED"), 2f, false);
+                EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PROBE_LAUNCHER_JAMMED"), 3f, false);
             NotificationManager.SharedInstance.PostNotification(data, false);
             Locator.GetPlayerAudioController().PlayNegativeUISound();
             return false;

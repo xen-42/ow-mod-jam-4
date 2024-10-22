@@ -25,7 +25,7 @@ namespace EscapeRoomJam4.TrianglePuzzle
             interactionVolume = GetComponent<SingleInteractionVolume>();
             renderer = GetComponent<MeshRenderer>();
 
-            interactionVolume.ChangePrompt("Push");
+            interactionVolume.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
             interactionVolume.OnPressInteract += OnPressInteract;
         }
 

@@ -29,7 +29,7 @@ namespace EscapeRoomJam4
             EscapeRoomJam4.WriteDebug($"Button {id} has an active signal {activeSignal}");
 
             interactionVolume = GetComponent<SingleInteractionVolume>();
-            interactionVolume.ChangePrompt("Push");
+            interactionVolume.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
             interactionVolume.OnPressInteract += OnPressInteract;
 
             SignalController.instance.ChangeCorrectFlag(id, activeSignal == 0);
