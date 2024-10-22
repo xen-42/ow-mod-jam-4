@@ -10,6 +10,8 @@ namespace EscapeRoomJam4.QuantumPuzzle
         private Renderer renderer;
         [SerializeField]
         private Animator animator;
+        [SerializeField]
+        private NomaiChest chest;
 
         private void Start()
         {
@@ -28,6 +30,7 @@ namespace EscapeRoomJam4.QuantumPuzzle
                 animator.SetTrigger("PressCorrect");
                 StartCoroutine(ChangeColor(Color.green, 1));
                 interactReceiver.DisableInteraction();
+                StartCoroutine(OpenChest());
             }
             else
             {
@@ -50,6 +53,12 @@ namespace EscapeRoomJam4.QuantumPuzzle
             interactReceiver.DisableInteraction();
             yield return new WaitForSeconds(2);
             interactReceiver.EnableInteraction();
+        }
+
+        private IEnumerator OpenChest()
+        {
+            yield return new WaitForSeconds(2);
+            chest.Open();
         }
     }
 }
