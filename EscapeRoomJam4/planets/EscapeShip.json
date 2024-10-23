@@ -55,7 +55,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Groovy Arpeggio"
+            "name": "WYRM_XEN_JAM_4_PILLAR_A1"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA2",
@@ -70,7 +70,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Droning Arpeggio"
+            "name": "WYRM_XEN_JAM_4_PILLAR_A2"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA3",
@@ -85,7 +85,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Twang Arpeggio"
+            "name": "WYRM_XEN_JAM_4_PILLAR_A3"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB1",
@@ -100,7 +100,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Droning Chorus"
+            "name": "WYRM_XEN_JAM_4_PILLAR_B1"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB2",
@@ -115,7 +115,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Brass Chorus"
+            "name": "WYRM_XEN_JAM_4_PILLAR_B2"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB3",
@@ -130,7 +130,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Wind Chorus"
+            "name": "WYRM_XEN_JAM_4_PILLAR_B3"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC1",
@@ -145,7 +145,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Electronic Melody"
+            "name": "WYRM_XEN_JAM_4_PILLAR_C1"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC2",
@@ -160,7 +160,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Piano Melody"
+            "name": "WYRM_XEN_JAM_4_PILLAR_C2"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC3",
@@ -175,7 +175,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Bell Melody"
+            "name": "WYRM_XEN_JAM_4_PILLAR_C3"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD1",
@@ -190,7 +190,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Guitar Beat"
+            "name": "WYRM_XEN_JAM_4_PILLAR_D1"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD2",
@@ -205,7 +205,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Ensamble Beat"
+            "name": "WYRM_XEN_JAM_4_PILLAR_D2"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD3",
@@ -220,7 +220,7 @@
             "detectionRadius": 0,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
-            "name": "Ethereal Beat"
+            "name": "WYRM_XEN_JAM_4_PILLAR_D3"
           }
         ]
     },

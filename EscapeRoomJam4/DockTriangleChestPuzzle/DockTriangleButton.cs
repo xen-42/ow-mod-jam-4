@@ -69,8 +69,7 @@ namespace EscapeRoomJam4
             }
             GetComponent<MeshRenderer>().material.color = newColor;
 
-            string newPrompt = EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON") + " ";
-            newPrompt += EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText($"BUTTON_{color.ToString().ToUpper()}");
+            string newPrompt =  EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText($"BUTTON_{color.ToString().ToUpper()}");
             interactionVolume.ChangePrompt(newPrompt);
         }
     }

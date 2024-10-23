@@ -7,17 +7,29 @@
     "GREEN_SOCKET": "(Green Socket)",
     "RED_SOCKET": "(Red Socket)",
     "PUSH_BUTTON": "Press",
-    "BUTTON_RED": "Red Button",
-    "BUTTON_YELLOW": "Yellow Button",
-    "BUTTON_GREEN": "Green Button",
-    "BUTTON_CYAN": "Cyan Button",
-    "BUTTON_BLUE": "Blue Button",
-    "BUTTON_MAGENTA": "Magenta Button",
-    "BUTTON_BLACK": "Black Button",
-    "BUTTON_WHITE": "White Button",
+    "BUTTON_RED": "Press Red Button",
+    "BUTTON_YELLOW": "Press Yellow Button",
+    "BUTTON_GREEN": "Press Green Button",
+    "BUTTON_CYAN": "Press Cyan Button",
+    "BUTTON_BLUE": "Press Blue Button",
+    "BUTTON_MAGENTA": "Press Magenta Button",
+    "BUTTON_BLACK": "Press Black Button",
+    "BUTTON_WHITE": "Press White Button",
     "SIGNAL_SWAPPED": "{0} >>> {1}"
   },
   "UIDictionary": {
-    "WYRM_XEN_JAM_4_SIGNAL": "Spooky Scary Signal ahhhh who is it"
+    "WYRM_XEN_JAM_4_SIGNAL": "MYSTERIOUS HARMONY",
+    "WYRM_XEN_JAM_4_PILLAR_A1": "Groovy Arpeggio",
+    "WYRM_XEN_JAM_4_PILLAR_A2": "Whirring Arpeggio",
+    "WYRM_XEN_JAM_4_PILLAR_A3": "Twangy Arpeggio",
+    "WYRM_XEN_JAM_4_PILLAR_B1": "Droning Chorus",
+    "WYRM_XEN_JAM_4_PILLAR_B2": "Brass Chorus",
+    "WYRM_XEN_JAM_4_PILLAR_B3": "Wind Chorus",
+    "WYRM_XEN_JAM_4_PILLAR_C1": "Electronic Melody",
+    "WYRM_XEN_JAM_4_PILLAR_C2": "Piano Melody",
+    "WYRM_XEN_JAM_4_PILLAR_C3": "Bell Melody",
+    "WYRM_XEN_JAM_4_PILLAR_D1": "Guitar Beat",
+    "WYRM_XEN_JAM_4_PILLAR_D2": "Ensemble Beat",
+    "WYRM_XEN_JAM_4_PILLAR_D3": "Ethereal Beat"
   }
 }
