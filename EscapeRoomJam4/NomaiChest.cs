@@ -5,7 +5,15 @@ namespace EscapeRoomJam4
 {
     public class NomaiChest : MonoBehaviour
     {
+        public GameObject keyLocation;
+
         private NHItem _key;
+
+        [SerializeField]
+        // these values are only relevant in the editor
+        private Mesh editorGizmoKeyMesh;
+        [SerializeField, Range(0, 1)]
+        private float editorGizmoKeyScale;
 
         public void Start()
         {
@@ -29,6 +37,20 @@ namespace EscapeRoomJam4
         public void SecretOpen()
         {
             GetComponent<Animator>().SetTrigger("SecretOpen");
+        }
+
+        private void OnDrawGizmos()
+        {
+            if (keyLocation != null && editorGizmoKeyMesh != null)
+            {
+                Gizmos.color = Color.yellow;
+                Gizmos.DrawWireMesh(editorGizmoKeyMesh, keyLocation.transform.position, keyLocation.transform.rotation, Vector3.one * editorGizmoKeyScale);
+            }
+        }
+
+        private void Reset()
+        {
+            editorGizmoKeyScale = 0.15f;
         }
     }
 }
