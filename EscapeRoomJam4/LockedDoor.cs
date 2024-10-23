@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace EscapeRoomJam4
 {
     public class LockedDoor : MonoBehaviour
     {
-        private void Start()
+        private void Update()
         {
-            // for debugging only now, remove when we can actually want to be able to open them
-            SetOpenState(true);
+#if DEBUG
+            if (Keyboard.current[Key.O].wasPressedThisFrame) SetOpenState(true);
+#endif
         }
 
         public void SetOpenState(bool open)
