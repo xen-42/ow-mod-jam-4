@@ -27,6 +27,9 @@ public class CoordinateInterfacePuzzleController : Puzzle
     {
         // DEBUG - Remove later after moving it in unity
         transform.parent.Find("EscapeShip/Sector_Nomai/Geometry/QuantumHints/ToyShip").transform.localPosition = new Vector3(-10, 4.5f, 10);
+
+        NomaiChest chest = transform.parent.Find("EscapeShip/Sector_Nomai/Geometry/CoordinateInterfaceNomaiChest").GetComponent<NomaiChest>();
+        Solved.AddListener(() => chest.Open());
     }
 
     public override bool IsSolved() => _interface.CheckEyeCoordinates();
