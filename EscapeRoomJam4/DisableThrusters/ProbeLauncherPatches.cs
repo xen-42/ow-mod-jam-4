@@ -22,6 +22,13 @@ public static class ProbeLauncherPatches
                 EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PROBE_LAUNCHER_JAMMED"), 3f, false);
             NotificationManager.SharedInstance.PostNotification(data, false);
             Locator.GetPlayerAudioController().PlayNegativeUISound();
+
+            if (__instance._name == ProbeLauncher.Name.Player)
+            {
+                __instance._photoMode = !__instance._photoMode;
+                __instance._effects.PlayChangeModeClip();
+            }
+
             return false;
         }
         return true;

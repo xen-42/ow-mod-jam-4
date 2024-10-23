@@ -62,8 +62,12 @@ namespace EscapeRoomJam4
                 coordPuzzle.gameObject.AddComponent<ChromeToSandstoneReplacer>();
 
                 // TODO: Hook this up to outer door opening/closing
-                dreamworldSkyController.TurnOn();
-                propulsionDisabledController.TurnOn();
+                // Has to wait at least one frame
+                ModHelper.Events.Unity.FireOnNextUpdate(() =>
+                {
+                    dreamworldSkyController.TurnOn();
+                    propulsionDisabledController.TurnOn();
+                });
 
                 var data = NewHorizons.QueryBody<LockAndKeyData>("EscapeShip", "$.extras.lockAndKey");
                 if (data != null)

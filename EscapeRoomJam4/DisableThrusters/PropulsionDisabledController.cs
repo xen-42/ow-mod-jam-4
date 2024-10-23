@@ -11,6 +11,10 @@ public class PropulsionDisabledController : MonoBehaviour
     public void Awake()
     {
         _shipAndJetpackDisabled = new(NotificationTarget.Ship, EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PROPULSION_DISABLED_NOTIF"), 0f, true);
+    }
+
+    public void Start()
+    {
         _shipThrusters = GameObject.FindObjectsOfType<ShipThrusterComponent>();
     }
 
