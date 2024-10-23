@@ -25,7 +25,7 @@ namespace EscapeRoomJam4
         {
             instance = this;
 
-            if (!EnumUtils.TryParse("Controls Jammer", out SignalName jammerSignal))
+            if (!EnumUtils.TryParse("WYRM_XEN_JAM_4_JAMMER", out SignalName jammerSignal))
             {
                 EscapeRoomJam4.Instance.ModHelper.Console.WriteLine("NO SIGNAL NAME?", OWML.Common.MessageType.Error);
             }

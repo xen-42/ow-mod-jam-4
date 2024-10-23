@@ -40,7 +40,7 @@
             "detectionRadius": 60,
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 20,
-            "name": "Controls Jammer"
+            "name": "WYRM_XEN_JAM_4_JAMMER"
           },
           {
             "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA1",
