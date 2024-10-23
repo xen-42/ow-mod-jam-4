@@ -46,7 +46,15 @@ namespace EscapeRoomJam4
 
             // force the Signalscope away since the signal seems to not play properly
             // TODO fix later?
-            Locator.GetToolModeSwapper().UnequipTool();
+            if (Locator.GetToolModeSwapper().GetToolMode() == ToolMode.SignalScope)
+            {
+                Locator.GetToolModeSwapper().UnequipTool();
+
+                EscapeRoomJam4.Instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
+                {
+                    Locator.GetToolModeSwapper().EquipToolMode(ToolMode.SignalScope);
+                });
+            }
 
             // the first signal, 0, is always the correct one
             SignalController.instance.ChangeCorrectFlag(id, activeSignal == 0);
