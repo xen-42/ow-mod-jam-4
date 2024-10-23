@@ -42,12 +42,11 @@ public static class BuildLockAndKeys
         }
         foreach (var keyData in data.keys)
         {
-            var parentToBox = !string.IsNullOrEmpty(keyData.boxPath);
             var itemGO = NewHorizons.Builder.Props.DetailBuilder.Make(planetGO, sector, EscapeRoomJam4.Instance, new()
             {
                 rename = keyData.name,
-                position = parentToBox ? new Vector3(0, 0.054f, -0.74f) : keyData.position,
-                rotation = parentToBox ? new Vector3(0, 180, 180) : keyData.rotation,
+                position = keyData.position,
+                rotation = keyData.rotation,
                 item = new()
                 {
                     itemType = keyData.itemType,
@@ -56,8 +55,7 @@ public static class BuildLockAndKeys
                     dropOffset = new(0, 0, 0.1f),
                     colliderRadius = 0.5f
                 },
-                parentPath = keyData.boxPath,
-                isRelativeToParent = parentToBox
+                parentPath = keyData.boxPath
             });
             var itemVisual = NewHorizons.Builder.Props.DetailBuilder.Make(planetGO, sector, EscapeRoomJam4.Instance, new()
             {
@@ -69,6 +67,21 @@ public static class BuildLockAndKeys
             itemVisual.transform.parent = itemGO.transform;
             itemVisual.transform.localPosition = Vector3.zero;
             itemVisual.transform.localRotation = Quaternion.identity;
+
+            if (!string.IsNullOrEmpty(keyData.boxPath))
+            {
+                var parent = planetGO.transform.Find(keyData.boxPath)?.GetComponent<NomaiChest>()?.keyLocation?.transform;
+                if (parent != null)
+                {
+                    itemGO.transform.parent = parent;
+                    itemGO.transform.localPosition = Vector3.zero;
+                    itemGO.transform.localRotation = Quaternion.identity;
+                }
+                else
+                {
+                    EscapeRoomJam4.WriteDebug($"Bad path {keyData.boxPath}");
+                }
+            }
         }
     }
 }

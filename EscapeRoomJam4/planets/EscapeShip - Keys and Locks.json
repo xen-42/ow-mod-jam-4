@@ -8,7 +8,7 @@
         {
           "itemType": "Layer1Key",
           "name": "Layer 1 - Lock 1",
-          "scale": 0.15,
+          "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
           "position": {
@@ -25,7 +25,7 @@
         {
           "itemType": "Layer1Key",
           "name": "Layer 1 - Lock 2",
-          "scale": 0.15,
+          "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
           "position": {
@@ -42,7 +42,7 @@
         {
           "itemType": "Layer1Key",
           "name": "Layer 1 - Lock 3",
-          "scale": 0.15,
+          "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Lock.prefab",
           "position": {
@@ -112,7 +112,7 @@
         {
           "itemType": "Layer1Key",
           "name": "Key 1",
-          "scale": 0.15,
+          "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
           "position": {
@@ -121,10 +121,26 @@
             "z": -2.5
           },
           "rotation": {
-            "x": 0,
+            "x": 90,
             "y": 0,
             "z": 0
           }
+        },
+        {
+          "itemType": "Layer1Key",
+          "name": "Key 1",
+          "scale": 0.3,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Entrance/Geometry/ArrowPuzzle/ArrowPuzzleChest"
+        },
+        {
+          "itemType": "Layer1Key",
+          "name": "Key 1",
+          "scale": 0.3,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/MusicPuzzleChest"
         },
         {
           "itemType": "Layer2Key",
@@ -132,7 +148,7 @@
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
-          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/QuantumStage/StageBox"
+          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/QuantumStage/StageBox/NomaiChest"
         },
         {
           "itemType": "Layer2Key",
@@ -141,6 +157,14 @@
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
           "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/ScrollPuzzleNomaiChest"
+        },
+        {
+          "itemType": "Layer2Key",
+          "name": "Sandstone Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/CoordinateInterfaceNomaiChest"
         }
       ]
     }
