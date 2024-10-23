@@ -1,4 +1,5 @@
 ﻿using EscapeRoomJam4.CoordinateInterfacePuzzle;
+using EscapeRoomJam4.DockSignalPuzzle;
 using EscapeRoomJam4.GhostPuzzle;
 using EscapeRoomJam4.Jetpack;
 using EscapeRoomJam4.LockAndKey;
@@ -82,7 +83,8 @@ namespace EscapeRoomJam4
                 ceilingMural.transform.localScale = new Vector3(8, 3.2f, 1);
                 ceilingMural.gameObject.layer = LayerMask.NameToLayer("VisibleToProbe");
 
-                // Modify the materials used for the vessel coordinate interface
+                // Fix signals
+                new GameObject(nameof(SignalSyncManager)).AddComponent<SignalSyncManager>();
             }
         }
 

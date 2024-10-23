@@ -14,6 +14,10 @@
     "BUTTON_BLUE": "Blue Button",
     "BUTTON_MAGENTA": "Magenta Button",
     "BUTTON_BLACK": "Black Button",
-    "BUTTON_WHITE": "White Button"
+    "BUTTON_WHITE": "White Button",
+    "SIGNAL_SWAPPED": "{0} >>> {1}"
+  },
+  "UIDictionary": {
+    "WYRM_XEN_JAM_4_SIGNAL": "Spooky Scary Signal ahhhh who is it"
   }
 }

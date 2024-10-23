@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using EscapeRoomJam4.DockSignalPuzzle;
+using NewHorizons.Utility;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace EscapeRoomJam4
@@ -22,6 +24,8 @@ namespace EscapeRoomJam4
                 if (signalObjects[i].activeSelf)
                 {
                     activeSignal = i;
+                    // Activate once the jammer signal is identified
+                    signalObjects[i].SetActive(false);
                     break;
                 }
             }
@@ -33,10 +37,27 @@ namespace EscapeRoomJam4
             interactionVolume.OnPressInteract += OnPressInteract;
 
             SignalController.instance.ChangeCorrectFlag(id, activeSignal == 0);
+
+            if (PlayerData.KnowsSignal(SignalController.instance.JammerSignal))
+            {
+                EscapeRoomJam4.WriteDebug("Already identified jammer?");
+                OnJammerIdentified();
+            }
+            else
+            {
+                SignalController.instance.UnlockAllSignals += OnJammerIdentified;
+            }
+        }
+
+        private void OnJammerIdentified()
+        {
+            EscapeRoomJam4.WriteDebug("Identified jammer!");
+            signalObjects[activeSignal].SetActive(true);
         }
 
         private void OnPressInteract()
         {
+            var previousAudioSignal = signalObjects[activeSignal].GetComponentInChildren<AudioSignal>();
             signalObjects[activeSignal].SetActive(false);
 
             activeSignal++;
@@ -44,20 +65,25 @@ namespace EscapeRoomJam4
 
             signalObjects[activeSignal].SetActive(true);
 
+            var activeAudioSignal = signalObjects[activeSignal].GetComponentInChildren<AudioSignal>();
+            if (!PlayerData.KnowsSignal(activeAudioSignal.GetName()))
+            {
+                PlayerData.LearnSignal(activeAudioSignal.GetName());
+            }
+
             // force the Signalscope away since the signal seems to not play properly
             // TODO fix later?
-            if (Locator.GetToolModeSwapper().GetToolMode() == ToolMode.SignalScope)
-            {
-                Locator.GetToolModeSwapper().UnequipTool();
-
-                EscapeRoomJam4.Instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
-                {
-                    Locator.GetToolModeSwapper().EquipToolMode(ToolMode.SignalScope);
-                });
-            }
+            SignalController.instance.ResetSignalscope();
 
             // the first signal, 0, is always the correct one
             SignalController.instance.ChangeCorrectFlag(id, activeSignal == 0);
+
+            var oldName = AudioSignal.SignalNameToString(previousAudioSignal._name);
+            var newName = AudioSignal.SignalNameToString(activeAudioSignal._name);
+            var formattedString = string.Format(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("SIGNAL_SWAPPED"), oldName, newName).ToUpper();
+            NotificationData data = new NotificationData(NotificationTarget.Player, formattedString, 3f, false);
+            NotificationManager.SharedInstance.PostNotification(data, false);
+            Locator.GetPlayerAudioController().PlayEnterLaunchCodes();
         }
 
         public void FinishPuzzle()
