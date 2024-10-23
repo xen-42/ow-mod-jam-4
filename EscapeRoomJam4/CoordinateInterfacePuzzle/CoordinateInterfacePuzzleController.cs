@@ -14,7 +14,7 @@ public class CoordinateInterfacePuzzleController : Puzzle
 
         _interface._raisePillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => _interface.SetPillarRaised(true, true);
         _interface._lowerPillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => _interface.SetPillarRaised(false, false);
-        _interface._raisePillarSlot.OnSlotActivated += (NomaiInterfaceSlot slot) => CheckIfSolved();
+        _interface._lowerPillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => CheckIfSolved();
 
         _interface._coordinateX = new int[] { 4, 0, 3, 2 };
         _interface._coordinateY = new int[] { 5, 4, 3, 2 };

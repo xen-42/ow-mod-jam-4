@@ -15,7 +15,7 @@ public static class NomaiTextLinePatches
             var a = __result.a;
             if (__instance == ScrollPuzzleController.Red)
             {
-                __result = new Color(1, 0.65f, 0f);
+                __result = Color.red;
             }
             else if (__instance == ScrollPuzzleController.Green)
             {
