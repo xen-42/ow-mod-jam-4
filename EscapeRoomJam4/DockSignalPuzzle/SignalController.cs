@@ -101,7 +101,6 @@ namespace EscapeRoomJam4
         {
             foreach (bool isCorrect in correctSignals)
             {
-                EscapeRoomJam4.WriteDebug(isCorrect.ToString());
                 if (!isCorrect) return false;
             }
             return true;

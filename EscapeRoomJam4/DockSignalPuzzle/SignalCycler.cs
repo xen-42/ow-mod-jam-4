@@ -30,8 +30,6 @@ namespace EscapeRoomJam4
                 }
             }
 
-            EscapeRoomJam4.WriteDebug($"Button {id} has an active signal {activeSignal}");
-
             interactionVolume = GetComponent<SingleInteractionVolume>();
             interactionVolume.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
             interactionVolume.OnPressInteract += OnPressInteract;

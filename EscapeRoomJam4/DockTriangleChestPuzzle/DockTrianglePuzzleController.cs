@@ -35,17 +35,14 @@ namespace EscapeRoomJam4
 
         public override bool IsSolved()
         {
-            EscapeRoomJam4.WriteDebug("Testing for solution...");
             if (IsSecretSolved())
             {
                 SecretSolved.Invoke();
-                EscapeRoomJam4.WriteDebug("Secret solved!");
             }
             for (int i = 0; i < 3; i++)
             {
                 if (mainSolution[i] != storedSolution[i]) return false;
             }
-            EscapeRoomJam4.WriteDebug("Main puzzle solved!");
             return true;
         }
 
