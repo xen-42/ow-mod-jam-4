@@ -229,13 +229,13 @@
             {
                 "isDefault": true,
                 "position": {
-                    "x": 50,
+                    "x": 57,
                     "y": 0,
                     "z": 0
                 },
                 "offset": {
                     "x": 0,
-                    "y": 2,
+                    "y": 0,
                     "z": 0
                 },
                 "rotation": {
