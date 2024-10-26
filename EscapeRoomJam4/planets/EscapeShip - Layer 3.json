@@ -23,9 +23,14 @@
         "rename": "GhostBird",
         "keepLoaded": true,
         "position": {
-          "x": 0,
+          "x": -66,
           "y": 0,
-          "z": 10
+          "z": 130
+        },
+        "rotation": {
+          "x": 0,
+          "y": -90,
+          "z": 0
         }
       }
     ]

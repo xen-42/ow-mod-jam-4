@@ -10,6 +10,8 @@ namespace EscapeRoomJam4.GhostPuzzle;
 
 public class GhostWalkController : MonoBehaviour
 {
+    public static GhostWalkController instance;
+
     private Animator _animator;
 
     private Vector3 _destination;
@@ -45,6 +47,11 @@ public class GhostWalkController : MonoBehaviour
         _audioSource = gameObject.AddComponent<OWAudioSource>();
 
         _audioSource.SetTrack(OWAudioMixer.TrackName.Environment);
+    }
+
+    public void Start()
+    {
+        instance = this;
     }
 
     public void WalkTo(Vector3 destination)
