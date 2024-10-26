@@ -51,7 +51,7 @@ namespace EscapeRoomJam4
         {
             yield return new WaitForEndOfFrame();
             yield return new WaitForEndOfFrame();
-            int[] all = [0, 1, 2, 3, 4];
+            int[] all = new int[] { 0, 1, 2, 3, 4 };
             ToggleFloors(all);
             ToggleFloors(all);
             isInitialized = true;

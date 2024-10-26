@@ -128,17 +128,33 @@ public class GhostWalkController : MonoBehaviour
 
     private void UpdateWalk()
     {
-        var disp = _destination - transform.localPosition;
+        var localDestination = transform.parent.InverseTransformPoint(_destination);
+        var disp = localDestination - transform.localPosition;
         var relativeVelocity = disp.normalized * _speed;
 
-        var rotation = Vector3.Angle(disp, transform.forward);
+        var flatDirection = Vector3.ProjectOnPlane(disp, Vector3.up).normalized;
+        var flatFacing = Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized;
+        var rotation = Vector2.SignedAngle(flatDirection, flatFacing);
         var dtheta = Mathf.Sign(rotation) * _turnSpeed * Time.deltaTime;
-        transform.localRotation *= Quaternion.AngleAxis(Mathf.Min(dtheta, rotation), transform.up);
+
+        static float ClosestToZero(float a, float b)
+        {
+            if (Mathf.Abs(a) < Mathf.Abs(b))
+            {
+                return a;
+            }
+            else
+            {
+                return b;
+            }
+        }
+
+        transform.localRotation *= Quaternion.AngleAxis(ClosestToZero(dtheta, rotation), transform.up);
 
         var stepSize = relativeVelocity * Time.deltaTime;
         if (stepSize.magnitude > disp.magnitude)
         {
-            transform.localPosition = _destination;
+            transform.localPosition = localDestination;
             _isWalking = false;
             return;
         }
