@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Fake8",
+    "starSystem": "xen.EscapeSystem",
+    "Base": {
+        "groundSize": 0,
+        "soiOverride": 1,
+        "surfaceGravity": 0
+    },
+    "Orbit": {
+        "primaryBody": "EscapeShip",
+        "staticPosition": {
+            "x": 70,
+            "y": -1000,
+            "z": 0
+        }
+    },
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "assets/mapmode/Invisible.png"
+        }
+    }
+}

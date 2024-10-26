@@ -32,9 +32,24 @@
     "WYRM_XEN_JAM_4_PILLAR_D1": "Guitar Beat",
     "WYRM_XEN_JAM_4_PILLAR_D2": "Ensemble Beat",
     "WYRM_XEN_JAM_4_PILLAR_D3": "Ethereal Beat",
+
     "WYRM_XEN_JAM_4_ALIGNMENT": "Ghostly Signal",
     "WYRM_XEN_JAM_4_TOTEM_CLOSE": "Short Totem",
     "WYRM_XEN_JAM_4_TOTEM_MIDDLE": "Middle Totem",
-    "WYRM_XEN_JAM_4_TOTEM_FAR": "Tall Totem"
+    "WYRM_XEN_JAM_4_TOTEM_FAR": "Tall Totem",
+
+    "EscapeShip": "Mysterious Vessel",
+    "Fake1": "%",
+    "Fake2": "!",
+    "Fake3": "&",
+    "Fake4": "@",
+    "Fake5": "*",
+    "Fake6": "#",
+    "Fake7": "(",
+    "Fake8": "^",
+    "Fake9": ")",
+    "Fake10": "=",
+    "Fake8Moon": "^^^",
+    "Fake8MoonHint": "<=>"
   }
 }

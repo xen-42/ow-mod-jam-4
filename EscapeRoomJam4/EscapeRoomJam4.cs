@@ -89,6 +89,20 @@ namespace EscapeRoomJam4
 
                 // Fix signals
                 new GameObject(nameof(SignalSyncManager)).AddComponent<SignalSyncManager>();
+
+                // Hide map mode lines to hide the hint better
+                Transform mapModeRoot = GameObject.Find("Ship_Body").transform.Find("Module_Cabin/Systems_Cabin/ShipLogPivot/ShipLog/ShipLogPivot/ShipLogCanvas/MapMode/ScaleRoot/PanRoot");
+                foreach (Transform planet in mapModeRoot.transform)
+                {
+                    foreach (Transform child in planet)
+                    {
+                        if (child.gameObject.name == "Line_ShipLog")
+                        {
+                            child.gameObject.SetActive(false);
+                            break;
+                        }
+                    }
+                }
             }
         }
 
