@@ -1,3 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json"
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+    "popupMessage": "Welcome to the Escape Room! Can you get out?\nPlease note that while your ship log will point you towards important information, due to the nature of an escape room, such information will not be directly recorded. You are encouraged to take notes and screenshots.",
+    "repeatPopup": true
 }

@@ -221,6 +221,51 @@
             "frequency": "WYRM_XEN_JAM_4_SIGNAL",
             "identificationRadius": 0,
             "name": "WYRM_XEN_JAM_4_PILLAR_D3"
+          },
+          {
+            "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/CloseTotem",
+            "isRelativeToParent": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rename": "SignalTotemClose",
+            "audio": "assets/signals/EscapeRoomTotemClose.wav",
+            "detectionRadius": 50,
+            "identificationRadius": 20,
+            "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
+            "name": "WYRM_XEN_JAM_4_TOTEM_CLOSE"
+          },
+          {
+            "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/MidTotem",
+            "isRelativeToParent": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rename": "SignalTotemMiddle",
+            "audio": "assets/signals/EscapeRoomTotemMiddle.wav",
+            "detectionRadius": 50,
+            "identificationRadius": 20,
+            "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
+            "name": "WYRM_XEN_JAM_4_TOTEM_MIDDLE"
+          },
+          {
+            "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/FarTotem",
+            "isRelativeToParent": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rename": "SignalTotemFar",
+            "audio": "assets/signals/EscapeRoomTotemFar.wav",
+            "detectionRadius": 50,
+            "identificationRadius": 20,
+            "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
+            "name": "WYRM_XEN_JAM_4_TOTEM_FAR"
           }
         ]
     },
