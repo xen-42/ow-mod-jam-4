@@ -78,7 +78,13 @@ public static class BuildLockAndKeys
 
             if (!string.IsNullOrEmpty(keyData.boxPath))
             {
-                var parent = planetGO.transform.Find(keyData.boxPath)?.GetComponent<NomaiChest>()?.keyLocation?.transform;
+                var box = planetGO.transform.Find(keyData.boxPath);
+                var parent = box?.GetComponent<NomaiChest>()?.keyLocation?.transform;
+                if (parent == null)
+                {
+                    // Just default to original as a path
+                    parent = box;
+                }
                 if (parent != null)
                 {
                     itemGO.transform.parent = parent;

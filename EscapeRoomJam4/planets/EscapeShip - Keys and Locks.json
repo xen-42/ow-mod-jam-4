@@ -157,6 +157,23 @@
             "y": 77,
             "z": 90
           }
+        },
+        {
+          "itemType": "FinalKey",
+          "name": "Final Lock",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/FinalLock.prefab",
+          "position": {
+            "x": 57,
+            "y": 2.9,
+            "z": 0
+          },
+          "rotation": {
+            "x": 90,
+            "y": 90,
+            "z": 0
+          }
         }
       ],
       "keys": [
@@ -240,6 +257,14 @@
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
           "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/TrianglePuzzle/NomaiChest"
+        },
+        {
+          "itemType": "FinalKey",
+          "name": "Final Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/FinalKey.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/FinalBox/KeyPosition"
         }
       ]
     }
