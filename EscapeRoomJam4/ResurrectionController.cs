@@ -61,6 +61,7 @@ internal class ResurrectionController : MonoBehaviour
             GlobalMessenger.FireEvent("ExitShip");
             _hatch.OpenHatch();
         }
+        // Reset the suit state else 
         if (PlayerState.IsWearingSuit())
         {
             Locator.GetPlayerSuit().RemoveSuit(true);
