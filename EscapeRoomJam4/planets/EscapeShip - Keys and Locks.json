@@ -106,6 +106,57 @@
             "y": 180,
             "z": 270
           }
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Layer 3 - Lock 1",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Lock.prefab",
+          "position": {
+            "x": -173.4,
+            "y": 4.2,
+            "z": 5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 77,
+            "z": 90
+          }
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Layer 3 - Lock 2",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Lock.prefab",
+          "position": {
+            "x": -173.6,
+            "y": 4.2,
+            "z": 6.0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 77,
+            "z": 90
+          }
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Layer 3 - Lock 3",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Lock.prefab",
+          "position": {
+            "x": -173.8,
+            "y": 4.2,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 77,
+            "z": 90
+          }
         }
       ],
       "keys": [
@@ -165,6 +216,30 @@
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
           "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/CoordinateInterfaceNomaiChest"
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Wooden Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/CodeTotemHouse/InhabitantChest"
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Wooden Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/InhabitantBridgeStage/GhostPuzzleChest"
+        },
+        {
+          "itemType": "Layer3Key",
+          "name": "Wooden Key",
+          "scale": 0.15,
+          "assetBundle": "assets/bundles/locksandkeys",
+          "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
+          "boxPath": "Sector/EscapeShip/Sector_Nomai/Geometry/TrianglePuzzle/NomaiChest"
         }
       ]
     }
