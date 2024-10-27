@@ -55,6 +55,7 @@ namespace EscapeRoomJam4
                 var propulsionDisabledController = escapeShip.gameObject.AddComponent<PropulsionDisabledController>();
                 var dreamworldSkyController = escapeShip.gameObject.AddComponent<DreamworldSkyController>();
                 escapeShip.gameObject.AddComponent<PropulsionDisabledNotification>();
+                escapeShip.gameObject.AddComponent<ResurrectionController>();
 
                 escapeShip.transform.Find("Sector/GhostBird").gameObject.AddComponent<GhostWalkController>();
 
