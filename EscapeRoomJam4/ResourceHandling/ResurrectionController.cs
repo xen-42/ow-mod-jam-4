@@ -42,7 +42,7 @@ internal class ResurrectionController : MonoBehaviour
         _hatch = GameObject.FindObjectOfType<HatchController>();
     }
 
-    public IEnumerator DeathCoroutine(float eyeCloseTime = 0.5f)
+    public IEnumerator DeathCoroutine(float eyeCloseTime)
     {
         _effectController.CloseEyes(eyeCloseTime);
         OWInput.ChangeInputMode(InputMode.None);
@@ -76,10 +76,16 @@ internal class ResurrectionController : MonoBehaviour
 
         _resources.StartRefillResources(true, true);
 
-        yield return new WaitForSeconds(1f);
-
-        _effectController.OpenEyes(3f);
         yield return new WaitForSeconds(3f);
+
+        Locator.GetAudioMixer()._deathMixed = false;
+        Locator.GetAudioMixer()._endTimesVolume.FadeTo(1f, 3f);
+        Locator.GetAudioMixer()._nonEndTimesVolume.FadeTo(1f, 3f);
+
+        Locator.GetPlayerAudioController()._oneShotExternalSource.PlayOneShot(eyeCloseTime >= 3f ? AudioType.PlayerGasp_Light : AudioType.PlayerGasp_Medium, 1f);
+
+        _effectController.OpenEyes(eyeCloseTime);
+        yield return new WaitForSeconds(eyeCloseTime);
         OWInput.ChangeInputMode(InputMode.Character);
 
         ReticleController.Show();
