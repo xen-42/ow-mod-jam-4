@@ -219,7 +219,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Wooden Key",
+          "name": "Strange Key",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
@@ -227,7 +227,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Wooden Key",
+          "name": "Strange Key",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
@@ -235,7 +235,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Wooden Key",
+          "name": "Strange Key",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",

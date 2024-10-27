@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Components.Props;
+using UnityEngine;
 
 namespace EscapeRoomJam4.LockAndKey;
 
@@ -33,11 +34,14 @@ public static class BuildLockAndKeys
             socketVisual.transform.localPosition = Vector3.zero;
             socketVisual.transform.localRotation = Quaternion.identity;
 
+            var audio = socketGO.AddComponent<OWAudioSource>();
+
             // Once a key is placed into a lock it cannot be removed
             var socket = socketGO.GetComponentInChildren<OWItemSocket>();
             socket.OnSocketablePlaced += (OWItem item) =>
             {
                 socket.EnableInteraction(false);
+                audio.PlayOneShot(AudioType.ToolItemSharedStoneDrop);
             };
         }
         foreach (var keyData in data.keys)
@@ -67,6 +71,10 @@ public static class BuildLockAndKeys
             itemVisual.transform.parent = itemGO.transform;
             itemVisual.transform.localPosition = Vector3.zero;
             itemVisual.transform.localRotation = Quaternion.identity;
+            var audio = itemGO.AddComponent<OWAudioSource>();
+            var nhItem = itemGO.GetComponent<NHItem>();
+            
+            nhItem.onPickedUp.AddListener((_) => audio.PlayOneShot(AudioType.ToolItemSharedStonePickUp));
 
             if (!string.IsNullOrEmpty(keyData.boxPath))
             {

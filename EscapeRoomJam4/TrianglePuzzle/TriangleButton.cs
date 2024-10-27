@@ -35,6 +35,8 @@ namespace EscapeRoomJam4.TrianglePuzzle
             renderer.material = controller.GetStateMaterial(isOn);
 
             controller.CheckTriangle(isCorrectButton, isOn);
+
+            Locator.GetPlayerAudioController()._oneShotExternalSource.PlayOneShot(AudioType.Menu_LeftRight);
         }
 
         private void OnDrawGizmos()

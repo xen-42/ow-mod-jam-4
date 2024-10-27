@@ -35,6 +35,7 @@ namespace EscapeRoomJam4
             currentColor = (TriangleColor)index;
             SetColor(currentColor);
             DockTrianglePuzzleController.instance.CycleTriangle(id, currentColor);
+            Locator.GetPlayerAudioController()._oneShotExternalSource.PlayOneShot(AudioType.Menu_LeftRight);
         }
 
         private void SetColor(TriangleColor color)
