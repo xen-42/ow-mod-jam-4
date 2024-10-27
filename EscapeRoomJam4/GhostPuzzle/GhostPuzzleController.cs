@@ -14,7 +14,13 @@ namespace EscapeRoomJam4
         [SerializeField]
         private DreamObjectProjection[] floors;
         [SerializeField]
+        private GameObject inhabitantStartPoint;
+        [SerializeField]
         private GameObject inhabitantEndPoint;
+        [SerializeField]
+        private GameObject bridgeRoot;
+        [SerializeField]
+        private GameObject scream;
 
         public static GhostPuzzleController instance;
 
@@ -32,18 +38,25 @@ namespace EscapeRoomJam4
                 floorsEnabled[id] = !floorsEnabled[id];
                 floors[id].SetVisible(floorsEnabled[id]);
             }
-            if (isInitialized) CheckIfSolved();
+            if (isInitialized) CheckSolution();
+        }
+
+        public void CheckSolution()
+        {
+            foreach (bool isEnabled in floorsEnabled)
+            {
+                if (!isEnabled) return;
+            }
+            EscapeRoomJam4.WriteDebug("Ghost Puzzle solved!");
+            isSolved = true;
+            GhostWalkController.instance.WalkTo(inhabitantEndPoint.transform.position - inhabitantStartPoint.transform.position);
+            StartCoroutine(SolvePuzzle());
         }
 
         public override bool IsSolved()
         {
-            foreach (bool isEnabled in floorsEnabled)
-            {
-                if (!isEnabled) return false;
-            }
-            EscapeRoomJam4.WriteDebug("Ghost Puzzle solved!");
-            isSolved = true;
-            GhostWalkController.instance.WalkTo(inhabitantEndPoint.transform.position);
+            scream.SetActive(true);
+            bridgeRoot.SetActive(false);
             return true;
         }
 
@@ -55,6 +68,12 @@ namespace EscapeRoomJam4
             ToggleFloors(all);
             ToggleFloors(all);
             isInitialized = true;
+        }
+
+        private IEnumerator SolvePuzzle()
+        {
+            yield return new WaitForSeconds(15);
+            CheckIfSolved();
         }
     }
 }
