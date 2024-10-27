@@ -84,7 +84,10 @@ public class CoordinateInterfacePuzzleController : Puzzle
         if (EscapeRoomJam4.InEscapeSystem())
         {
             // This way it disables raising it
-            __result = _instance._secretSolved && _instance._wasSolved;
+            //__result = _instance._secretSolved && _instance._wasSolved;
+
+            // Actually we want to let it still work
+            __result = false;
         }
     }
 

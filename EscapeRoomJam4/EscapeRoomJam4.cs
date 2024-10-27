@@ -3,6 +3,7 @@ using EscapeRoomJam4.DockSignalPuzzle;
 using EscapeRoomJam4.GhostPuzzle;
 using EscapeRoomJam4.Jetpack;
 using EscapeRoomJam4.LockAndKey;
+using EscapeRoomJam4.ResourceHandling;
 using EscapeRoomJam4.ScrollPuzzle;
 using HarmonyLib;
 using NewHorizons.Utility.Files;
@@ -56,6 +57,7 @@ namespace EscapeRoomJam4
                 var dreamworldSkyController = escapeShip.gameObject.AddComponent<DreamworldSkyController>();
                 escapeShip.gameObject.AddComponent<PropulsionDisabledNotification>();
                 escapeShip.gameObject.AddComponent<ResurrectionController>();
+                escapeShip.gameObject.AddComponent<FuelReplenisher>();
 
                 escapeShip.transform.Find("Sector/GhostBird").gameObject.AddComponent<GhostWalkController>();
 
