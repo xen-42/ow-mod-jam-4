@@ -8,6 +8,8 @@ public abstract class Puzzle : MonoBehaviour
     [SerializeField]
     public UnityEvent Solved = new UnityEvent();
 
+    protected bool _wasSolved;
+
     /// <summary>
     /// When solved make sure to call CheckIfSolved so that the Solved event gets called
     /// </summary>
@@ -18,6 +20,7 @@ public abstract class Puzzle : MonoBehaviour
     {
         if (IsSolved())
         {
+            _wasSolved = true;
             Solved?.Invoke();
         }
     }
