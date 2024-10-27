@@ -13,6 +13,8 @@ public class WarpVolume : MonoBehaviour
     [SerializeField]
     private Transform _respawnPoint;
 
+    private bool isWarping = false;
+
     public void Start()
     {
         _effectController = Locator.GetPlayerCamera().GetComponent<PlayerCameraEffectController>();
@@ -20,17 +22,15 @@ public class WarpVolume : MonoBehaviour
 
     public void OnTriggerEnter(Collider hitCollider)
     {
-        if (hitCollider.attachedRigidbody == Locator.GetPlayerBody()._rigidbody)
+        if (!isWarping && hitCollider.attachedRigidbody.gameObject == Locator.GetPlayerBody()._rigidbody.gameObject)
         {
-            if (gameObject.activeInHierarchy)
-            {
-                WarpPlayer();
-            }
+            StartCoroutine(WarpPlayer());
         }
     }
 
     private IEnumerator WarpPlayer()
     {
+        isWarping = true;
         _effectController.CloseEyes(1f);
         OWInput.ChangeInputMode(InputMode.None);
         ReticleController.Hide();
@@ -44,5 +44,6 @@ public class WarpVolume : MonoBehaviour
         ReticleController.Show();
         Locator.GetPromptManager().SetPromptsVisible(true);
         Locator.GetPlayerBody().GetComponent<PlayerBody>().WarpToPositionRotation(_respawnPoint.position, _respawnPoint.rotation);
+        isWarping = false;
     }
 }
