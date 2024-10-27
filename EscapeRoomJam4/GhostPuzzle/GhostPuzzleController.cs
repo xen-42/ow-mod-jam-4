@@ -49,7 +49,7 @@ namespace EscapeRoomJam4
             }
             EscapeRoomJam4.WriteDebug("Ghost Puzzle solved!");
             isSolved = true;
-            GhostWalkController.instance.WalkTo(inhabitantEndPoint.transform.position - inhabitantStartPoint.transform.position);
+            GhostWalkController.instance.WalkTo(inhabitantEndPoint.transform.position);
             StartCoroutine(SolvePuzzle());
         }
 
@@ -72,7 +72,8 @@ namespace EscapeRoomJam4
 
         private IEnumerator SolvePuzzle()
         {
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(20);
+            GhostWalkController.instance.gameObject.SetActive(false);
             CheckIfSolved();
         }
     }
