@@ -72,7 +72,7 @@ namespace EscapeRoomJam4
 
         private IEnumerator SolvePuzzle()
         {
-            yield return new WaitForSeconds(20);
+            yield return new WaitForSeconds(16);
             GhostWalkController.instance.gameObject.SetActive(false);
             CheckIfSolved();
         }
