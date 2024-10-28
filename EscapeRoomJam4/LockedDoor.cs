@@ -30,7 +30,7 @@ namespace EscapeRoomJam4
             }
             else
             {
-                animator.SetTrigger("Closed");
+                animator.SetTrigger("Close");
             }
         }
     }

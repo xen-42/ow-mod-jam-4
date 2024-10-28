@@ -280,6 +280,65 @@
         "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
         "name": "WYRM_XEN_JAM_4_TOTEM_FAR"
       }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/EscapeShip/FinaleStuff",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rename": "FinaleDialogue",
+        "blockAfterPersistentCondition": "WYRM_XEN_JAM_4_ENDING",
+        "radius": 0,
+        "attentionPoint": {
+          "parentPath": "Sector/EscapeShip/FinaleStuff",
+          "isRelativeToParent": true,
+          "position": {
+            "x": 0,
+            "y": 30,
+            "z": 0
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rename": "FinaleAttentionPoint"
+        },
+        "remoteTrigger": {
+          "parentPath": "Sector/EscapeShip/FinaleStuff",
+          "isRelativeToParent": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 23,
+          "rename": "FinaleDialogueRemoteTrigger"
+        },
+        "xmlFile": "assets/text/EndingDialogue.xml"
+      }
+    ]
+  },
+  "Volumes": {
+    "creditsVolume": [
+      {
+        "parentPath": "Sector/EscapeShip/FinaleStuff",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 100,
+          "z": 0
+        },
+        "radius": 38,
+        "creditsType": "fast",
+        "deathType": "timeLoop",
+        "gameOverText": "WYRM_XEN_JAM_4_CREDITS",
+        "rename": "CreditsVolume"
+      }
     ]
   },
   "Spawn": {

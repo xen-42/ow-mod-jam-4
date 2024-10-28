@@ -5,6 +5,8 @@ namespace EscapeRoomJam4;
 
 public class PropulsionDisabledController : MonoBehaviour
 {
+    public static PropulsionDisabledController instance;
+
     private NotificationData _shipAndJetpackDisabled;
     private ShipThrusterComponent[] _shipThrusters;
 
@@ -15,6 +17,7 @@ public class PropulsionDisabledController : MonoBehaviour
 
     public void Start()
     {
+        instance = this;
         _shipThrusters = GameObject.FindObjectsOfType<ShipThrusterComponent>();
     }
 

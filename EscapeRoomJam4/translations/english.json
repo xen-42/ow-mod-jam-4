@@ -1,8 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "DialogueDictionary": {
+    "WYRM_XEN_JAM_4_ENDING_A": "Thank you for participating in a Personalized Puzzle Box simmulation! We hope you enjoyed this series of puzzles created based on your experiences.",
+    "WYRM_XEN_JAM_4_ENDING_B": "Don't worry, due to this being a simulation, your body has not suffered any actual harm, and almost no time has passed. Once you leave this box, it'll be as if you never left!",
+    "WYRM_XEN_JAM_4_ENDING_C": "Have a good flight, and a nice day!"
+  },
   "OtherDictionary": {
     "PROPULSION_DISABLED_NOTIF": "ALL PROPULSION SYSTEMS DISABLED",
     "PROBE_LAUNCHER_JAMMED": "SCOUT LAUNCHER JAMMED\nPHOTO MODE STILL OPERATIONAL",
+
+    "PROPULSION_ENABLED": "ALL CONTROLLER LOCKS REMOVED",
+
     "BLUE_SOCKET": "(Blue Socket)",
     "GREEN_SOCKET": "(Green Socket)",
     "RED_SOCKET": "(Red Socket)",
@@ -50,6 +58,8 @@
     "Fake9": ")",
     "Fake10": "=",
     "Fake8Moon": "^^^",
-    "Fake8MoonHint": "<=>"
+    "Fake8MoonHint": "<=>",
+
+    "WYRM_XEN_JAM_4_CREDITS": "YOU ESCAPED AND RETURNED TO THE REAL WORLD"
   }
 }

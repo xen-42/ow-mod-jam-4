@@ -4,10 +4,13 @@ namespace EscapeRoomJam4;
 
 public class DreamworldSkyController : MonoBehaviour
 {
+    public static DreamworldSkyController instance;
+
     private GameObject _dreamworldAtmosphere;
 
     public void Awake()
     {
+        instance = this;
         _dreamworldAtmosphere = transform.Find("Sector/Atmosphere_Dreamworld").gameObject;
 
         var dawnController = _dreamworldAtmosphere.GetComponentInChildren<DreamWorldDawnController>();
