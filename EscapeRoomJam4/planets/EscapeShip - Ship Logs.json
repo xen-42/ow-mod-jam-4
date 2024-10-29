@@ -258,7 +258,7 @@
                     "z": 2.5
                 },
                 "rename": "WYRM_XEN_JAM_4_LOCKER_IDENTIFY",
-                "radius": 4,
+                "radius": 2.87,
                 "reveals": [
                     "WYRM_XEN_JAM_4_LOCKER_IDENTIFY"
                 ],
