@@ -8,8 +8,6 @@ public static class BuildLockAndKeys
 {
     public static void Make(GameObject planetGO, LockAndKeyData data)
     {
-        EnumUtils.TryParse<ItemType>("Layer1Key", out var layer1Key);
-
         var sector = planetGO.GetComponentInChildren<Sector>();
         foreach (var lockData in data.locks)
         {
@@ -43,6 +41,7 @@ public static class BuildLockAndKeys
             var socket = socketGO.GetComponentInChildren<OWItemSocket>();
             socket.OnSocketablePlaced += (OWItem item) =>
             {
+                EnumUtils.TryParse<ItemType>("Layer1Key", out var layer1Key);
                 socket.EnableInteraction(false);
                 audio.PlayOneShot(AudioType.ToolItemSharedStoneDrop);
                 if (socket._acceptableType == layer1Key)
