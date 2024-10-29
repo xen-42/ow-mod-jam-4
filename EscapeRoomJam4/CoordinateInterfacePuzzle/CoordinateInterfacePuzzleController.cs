@@ -49,7 +49,8 @@ public class CoordinateInterfacePuzzleController : Puzzle
         _interface._upperOrb.SetOrbPosition(_interface._raisePillarSlot.transform.TransformPoint(new Vector3(0, 3.8f, 0)));
     }
 
-    private int[] InvertCoord(int[] coord) => coord.Select(x => (10 - x) % 6).ToArray();
+    //private int[] InvertCoord(int[] coord) => coord.Select(x => (10 - x) % 6).ToArray();
+    private int[] RotateCoord(int[] coord) => coord.Select(x => (x + 3) % 6).ToArray();
 
     public bool CheckCoords()
     {
@@ -60,18 +61,18 @@ public class CoordinateInterfacePuzzleController : Puzzle
         return flag && flag2 && flag3;
     }
 
-    public bool CheckInvertedCoords()
+    public bool CheckAlternateCoords()
     {
-        bool flag = _interface._nodeControllers[0].CheckCoordinate(InvertCoord(_coordinateY));
-        bool flag2 = _interface._nodeControllers[1].CheckCoordinate(InvertCoord(_coordinateZ));
-        bool flag3 = _interface._nodeControllers[2].CheckCoordinate(InvertCoord(_coordinateX));
+        bool flag = _interface._nodeControllers[0].CheckCoordinate(RotateCoord(_coordinateY));
+        bool flag2 = _interface._nodeControllers[1].CheckCoordinate(RotateCoord(_coordinateX));
+        bool flag3 = _interface._nodeControllers[2].CheckCoordinate(RotateCoord(_coordinateZ));
 
         return flag && flag2 && flag3;
     }
 
     public void CheckAlternateSolution()
     {
-        if (!_secretSolved && CheckInvertedCoords())
+        if (!_secretSolved && CheckAlternateCoords())
         {
             _secretSolved = true;
             SecretSolution?.Invoke();
