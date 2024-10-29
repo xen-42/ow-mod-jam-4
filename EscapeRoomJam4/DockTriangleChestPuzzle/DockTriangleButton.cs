@@ -36,6 +36,8 @@ namespace EscapeRoomJam4
             SetColor(currentColor);
             DockTrianglePuzzleController.instance.CycleTriangle(id, currentColor);
             Locator.GetPlayerAudioController()._oneShotExternalSource.PlayOneShot(AudioType.Menu_LeftRight);
+
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_ARROWS_IDENTIFY");
         }
 
         private void SetColor(TriangleColor color)

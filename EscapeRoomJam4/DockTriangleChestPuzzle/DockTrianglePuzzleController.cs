@@ -43,6 +43,7 @@ namespace EscapeRoomJam4
             {
                 if (mainSolution[i] != storedSolution[i]) return false;
             }
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_ARROWS_SOLVED");
             return true;
         }
 
@@ -52,6 +53,7 @@ namespace EscapeRoomJam4
             {
                 if (secretSolution[i] != storedSolution[i]) return false;
             }
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_ARROWS_SECRET");
             return true;
         }
 

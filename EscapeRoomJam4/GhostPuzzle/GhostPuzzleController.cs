@@ -57,6 +57,7 @@ namespace EscapeRoomJam4
         {
             scream.SetActive(true);
             bridgeRoot.SetActive(false);
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_TOTEM_IDENTIFY");
             return true;
         }
 

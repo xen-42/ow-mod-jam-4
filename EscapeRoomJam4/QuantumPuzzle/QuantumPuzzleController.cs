@@ -63,9 +63,11 @@ public class QuantumPuzzleController : Puzzle
     {
         EscapeRoomJam4.WriteDebug($"{nameof(QuantumPuzzleController)} - Testing states");
 
-        return
-            _quantumObject1._occupiedSocket.name == "Socket 0" &&
+        bool solved = _quantumObject1._occupiedSocket.name == "Socket 0" &&
             _quantumObject2._occupiedSocket.name == "Socket 1" &&
             _quantumObject3._occupiedSocket.name == "Socket 2";
+        if (solved) ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_QUANTUM_IDENTIFY");
+        return solved;
+            
     }
 }

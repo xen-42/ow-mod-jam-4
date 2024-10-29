@@ -103,6 +103,7 @@ namespace EscapeRoomJam4
             {
                 if (!isCorrect) return false;
             }
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_MUSIC_CHEST");
             return true;
         }
     }

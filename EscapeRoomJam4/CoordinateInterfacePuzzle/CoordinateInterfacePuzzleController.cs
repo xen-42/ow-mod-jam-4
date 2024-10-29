@@ -76,6 +76,7 @@ public class CoordinateInterfacePuzzleController : Puzzle
         {
             _secretSolved = true;
             SecretSolution?.Invoke();
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_INTERFACE_SECRET");
         }
     }
 
@@ -92,5 +93,11 @@ public class CoordinateInterfacePuzzleController : Puzzle
         }
     }
 
-    public override bool IsSolved() => CheckCoords();
+    public override bool IsSolved()
+    {
+        bool solved = CheckCoords();
+        if (solved) ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_INTERFACE_IDENTIFY");
+
+        return solved;
+    }
 }

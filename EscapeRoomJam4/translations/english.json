@@ -126,6 +126,6 @@
         "WYRM_XEN_JAM_4_LOCKER_RUMOR_NAME": "Code's Purpose",
         "WYRM_XEN_JAM_4_LOCKER_RUMOR": "There is a small building below the cliffs. The door is locked. It has a hexagon above it.",
         "WYRM_XEN_JAM_4_LOCKER_CODE_RUMOR": "The code interface has a hexagon shape above it. There must be a door nearby that it opens.",
-        "WYRM_XEN_JAM_4_LOCER_IDENTIFY": "I entered the building and found a hexagon I can pick up."
+        "WYRM_XEN_JAM_4_LOCKER_IDENTIFY": "I entered the building and found a hexagon I can pick up."
     }
 }
