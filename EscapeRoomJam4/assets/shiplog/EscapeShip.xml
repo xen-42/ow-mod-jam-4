@@ -234,10 +234,10 @@
     <IsCuriosity/>
 
     <RumorFact>
-      <ID>WYRM_XEN_JAM_4_DOOR_TWO_OPEN</ID>
+      <ID>WYRM_XEN_JAM_4_DOOR_TWO_OPEN_RUMOR</ID>
       <SourceID>WYRM_XEN_JAM_4_DOOR_TWO</SourceID>
       <IgnoreMoreToExplore/>
-      <Text>WYRM_XEN_JAM_4_DOOR_TWO_OPEN</Text>
+      <Text>WYRM_XEN_JAM_4_DOOR_TWO_OPEN_RUMOR</Text>
     </RumorFact>
 
     <ExploreFact>
