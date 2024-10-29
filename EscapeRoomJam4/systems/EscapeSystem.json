@@ -1,9 +1,64 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
-  "name": "xen.EscapeSystem",
-  "canExitViaWarpDrive": false,
-  "startHere": true,
-  "respawnHere": true,
-  "enableTimeLoop": false,
-  "mapRestricted": true
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "name": "xen.EscapeSystem",
+    "canExitViaWarpDrive": false,
+    "startHere": true,
+    "respawnHere": true,
+    "enableTimeLoop": false,
+    "mapRestricted": true,
+    "curiosities": [
+        {
+            "id": "WYRM_XEN_JAM_4_INTRO",
+            "color": {
+                "r": 84,
+                "g": 99,
+                "b": 145,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 153,
+                "g": 165,
+                "b": 204,
+                "a": 255
+            }
+        },
+        {
+            "id": "WYRM_XEN_JAM_4_NOMAI",
+            "color": {
+                "r": 204,
+                "g": 147,
+                "b": 59,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 204,
+                "g": 172,
+                "b": 124,
+                "a": 255
+            }
+        },
+        {
+            "id": "WYRM_XEN_JAM_4_INHABITANT",
+            "color": {
+                "r": 4,
+                "g": 255,
+                "b": 143,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 2,
+                "g": 135,
+                "b": 75,
+                "a": 255
+            }
+        }
+    ],
+    "initialReveal": [
+        "WYRM_XEN_JAM_4_INTRO_PREQUEL",
+        "WYRM_XEN_JAM_4_INTRO_LOCK",
+        "WYRM_XEN_JAM_4_DOOR_ONE_IDENTIFY",
+        "WYRM_XEN_JAM_4_MUSIC_RUMOR",
+        "WYRM_XEN_JAM_4_PILLARS_RUMOR",
+        "WYRM_XEN_JAM_4_ARROWS_RUMOR"
+    ]
 }

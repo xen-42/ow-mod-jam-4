@@ -22,9 +22,11 @@
   },
   "ShipLog": {
     "mapMode": {
-      "revealedSprite": "assets/mapmode/EscapeRoom.png",
-      "scale": 4
-    }
+        "revealedSprite": "assets/mapmode/EscapeRoom.png",
+        "scale": 4
+    },
+    "spriteFolder": "assets/shiplog",
+    "xmlFile": "assets/shiplog/EscapeShip.xml"
   },
   "Props": {
     "details": [
