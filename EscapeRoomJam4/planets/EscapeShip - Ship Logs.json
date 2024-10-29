@@ -257,10 +257,10 @@
                     "y": 5,
                     "z": 2.5
                 },
-                "rename": "WYRM_XEN_JAM_4_LOCER_IDENTIFY",
+                "rename": "WYRM_XEN_JAM_4_LOCKER_IDENTIFY",
                 "radius": 4,
                 "reveals": [
-                    "WYRM_XEN_JAM_4_LOCER_IDENTIFY"
+                    "WYRM_XEN_JAM_4_LOCKER_IDENTIFY"
                 ],
                 "revealOn": "enter",
                 "revealFor": "player"
