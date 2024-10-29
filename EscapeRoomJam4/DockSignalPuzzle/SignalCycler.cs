@@ -82,6 +82,8 @@ namespace EscapeRoomJam4
             NotificationData data = new NotificationData(NotificationTarget.Player, formattedString, 3f, false);
             NotificationManager.SharedInstance.PostNotification(data, false);
             Locator.GetPlayerAudioController().PlayEnterLaunchCodes();
+
+            ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_PILLARS_BUTTONS");
         }
 
         public void FinishPuzzle()

@@ -22,9 +22,11 @@
   },
   "ShipLog": {
     "mapMode": {
-      "revealedSprite": "assets/mapmode/EscapeRoom.png",
-      "scale": 4
-    }
+        "revealedSprite": "assets/mapmode/EscapeRoom.png",
+        "scale": 4
+    },
+    "spriteFolder": "assets/shiplog",
+    "xmlFile": "assets/shiplog/EscapeShip.xml"
   },
   "Props": {
     "details": [
@@ -53,7 +55,8 @@
         "detectionRadius": 60,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 20,
-        "name": "WYRM_XEN_JAM_4_JAMMER"
+        "name": "WYRM_XEN_JAM_4_JAMMER",
+        "reveals": "WYRM_XEN_JAM_4_MUSIC_SIGNAL"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA1",
@@ -68,7 +71,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_A1"
+        "name": "WYRM_XEN_JAM_4_PILLAR_A1",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA2",
@@ -83,7 +87,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_A2"
+        "name": "WYRM_XEN_JAM_4_PILLAR_A2",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarA/PillarA3",
@@ -98,7 +103,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_A3"
+        "name": "WYRM_XEN_JAM_4_PILLAR_A3",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB1",
@@ -113,7 +119,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_B1"
+        "name": "WYRM_XEN_JAM_4_PILLAR_B1",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB2",
@@ -128,7 +135,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_B2"
+        "name": "WYRM_XEN_JAM_4_PILLAR_B2",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarB/PillarB3",
@@ -143,7 +151,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_B3"
+        "name": "WYRM_XEN_JAM_4_PILLAR_B3",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC1",
@@ -158,7 +167,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_C1"
+        "name": "WYRM_XEN_JAM_4_PILLAR_C1",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC2",
@@ -173,7 +183,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_C2"
+        "name": "WYRM_XEN_JAM_4_PILLAR_C2",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarC/PillarC3",
@@ -188,7 +199,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_C3"
+        "name": "WYRM_XEN_JAM_4_PILLAR_C3",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD1",
@@ -203,7 +215,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_D1"
+        "name": "WYRM_XEN_JAM_4_PILLAR_D1",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD2",
@@ -218,7 +231,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_D2"
+        "name": "WYRM_XEN_JAM_4_PILLAR_D2",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Entrance/Geometry/MusicPuzzle/HintPillarD/PillarD3",
@@ -233,7 +247,8 @@
         "detectionRadius": 0,
         "frequency": "WYRM_XEN_JAM_4_SIGNAL",
         "identificationRadius": 0,
-        "name": "WYRM_XEN_JAM_4_PILLAR_D3"
+        "name": "WYRM_XEN_JAM_4_PILLAR_D3",
+        "reveals": "WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/CloseTotem",
@@ -248,7 +263,8 @@
         "detectionRadius": 50,
         "identificationRadius": 20,
         "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
-        "name": "WYRM_XEN_JAM_4_TOTEM_CLOSE"
+        "name": "WYRM_XEN_JAM_4_TOTEM_CLOSE",
+        "reveals": "WYRM_XEN_JAM_4_INHABITANT_SIGNALS"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/MidTotem",
@@ -263,7 +279,8 @@
         "detectionRadius": 50,
         "identificationRadius": 20,
         "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
-        "name": "WYRM_XEN_JAM_4_TOTEM_MIDDLE"
+        "name": "WYRM_XEN_JAM_4_TOTEM_MIDDLE",
+        "reveals": "WYRM_XEN_JAM_4_INHABITANT_SIGNALS"
       },
       {
         "parentPath": "Sector/EscapeShip/Sector_Inhabitant/Geometry/SignalAlignmentPuzzle/FarTotem",
@@ -278,7 +295,8 @@
         "detectionRadius": 50,
         "identificationRadius": 20,
         "frequency": "WYRM_XEN_JAM_4_ALIGNMENT",
-        "name": "WYRM_XEN_JAM_4_TOTEM_FAR"
+        "name": "WYRM_XEN_JAM_4_TOTEM_FAR",
+        "reveals": "WYRM_XEN_JAM_4_INHABITANT_SIGNALS"
       }
     ],
     "dialogue": [

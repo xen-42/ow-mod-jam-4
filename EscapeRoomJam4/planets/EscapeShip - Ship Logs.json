@@ -1,0 +1,270 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "EscapeShip",
+    "starSystem": "xen.EscapeSystem",
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "position": {
+                    "x": 33,
+                    "y": 0,
+                    "z": -3
+                },
+                "rename": "WYRM_XEN_JAM_4_DOOR_ONE_KEY",
+                "radius": 4,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_DOOR_ONE_KEY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 59,
+                    "y": 0,
+                    "z": 27
+                },
+                "rename": "WYRM_XEN_JAM_4_PILLARS_IDENTIFY A",
+                "radius": 8,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_PILLARS_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 113,
+                    "y": 0,
+                    "z": -27
+                },
+                "rename": "WYRM_XEN_JAM_4_PILLARS_IDENTIFY B",
+                "radius": 8,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_PILLARS_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 113,
+                    "y": 0,
+                    "z": 27
+                },
+                "rename": "WYRM_XEN_JAM_4_PILLARS_IDENTIFY C",
+                "radius": 8,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_PILLARS_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 59,
+                    "y": 0,
+                    "z": -27
+                },
+                "rename": "WYRM_XEN_JAM_4_PILLARS_IDENTIFY D",
+                "radius": 8,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_PILLARS_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_NOMAI_IDENTIFY",
+                "radius": 25,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_NOMAI_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -26,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_DOOR_TWO_IDENTIFY",
+                "radius": 10,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_DOOR_TWO_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 15
+                },
+                "rename": "WYRM_XEN_JAM_4_QUANTUM_RUMOR",
+                "radius": 10,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_QUANTUM_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -15
+                },
+                "rename": "WYRM_XEN_JAM_4_SCROLLS_RUMOR",
+                "radius": 10,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_SCROLLS_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 10,
+                    "y": 0,
+                    "z": 10
+                },
+                "rename": "WYRM_XEN_JAM_4_INTERFACE_RUMOR",
+                "radius": 10,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_INTERFACE_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_TRIANGLE_RUMOR",
+                "radius": 5,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_TRIANGLE_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -35,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_INHABITANT_IDENTIFY",
+                "radius": 5,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_INHABITANT_IDENTIFY",
+                    "WYRM_XEN_JAM_4_TOTEM_RUMOR",
+                    "WYRM_XEN_JAM_4_HOUSE_RUMOR",
+                    "WYRM_XEN_JAM_4_CODE_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -172,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_DOOR_THREE_IDENTIFY",
+                "radius": 12,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_DOOR_THREE_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -180,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "WYRM_XEN_JAM_4_DOOR_THREE_KEY",
+                "radius": 6,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_DOOR_THREE_KEY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -282.72,
+                    "y": 53,
+                    "z": 36.65
+                },
+                "rename": "WYRM_XEN_JAM_4_HOUSE_IDENTIFY",
+                "radius": 4,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_HOUSE_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -277,
+                    "y": 70,
+                    "z": -10
+                },
+                "rename": "WYRM_XEN_JAM_4_CODE_IDENTIFY",
+                "radius": 4,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_CODE_IDENTIFY",
+                    "WYRM_XEN_JAM_4_CODE_HINT_1",
+                    "WYRM_XEN_JAM_4_CODE_HINT_2",
+                    "WYRM_XEN_JAM_4_CODE_HINT_3",
+                    "WYRM_XEN_JAM_4_CODE_HINT_4",
+                    "WYRM_XEN_JAM_4_CODE_HINT_5",
+                    "WYRM_XEN_JAM_4_LOCKER_CODE_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -270,
+                    "y": 0,
+                    "z": 15
+                },
+                "rename": "WYRM_XEN_JAM_4_LOCKER_RUMOR",
+                "radius": 4,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_LOCKER_RUMOR"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            },
+            {
+                "position": {
+                    "x": -268,
+                    "y": 5,
+                    "z": 2.5
+                },
+                "rename": "WYRM_XEN_JAM_4_LOCER_IDENTIFY",
+                "radius": 4,
+                "reveals": [
+                    "WYRM_XEN_JAM_4_LOCER_IDENTIFY"
+                ],
+                "revealOn": "enter",
+                "revealFor": "player"
+            }
+        ]
+    }
+}

@@ -49,6 +49,10 @@ public class ScrollPuzzleController : Puzzle
 
     public override bool IsSolved()
     {
-        return redSocket._socketedItem == _redScroll && greenSocket._socketedItem == _greenScroll && blueSocket._socketedItem == _blueScroll;
+        bool solved = redSocket._socketedItem == _redScroll && greenSocket._socketedItem == _greenScroll && blueSocket._socketedItem == _blueScroll;
+
+        if (solved) ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_SCROLLS_PICKUP");
+
+        return solved;
     }
 }

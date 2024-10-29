@@ -39,6 +39,7 @@ namespace EscapeRoomJam4.TrianglePuzzle
             if (onCorrectButtons == 4 && onIncorrectButtons == 0)
             {
                 isSolved = true;
+                ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_TRIANGLE_IDENTIFY");
                 return true;
             }
             return false;

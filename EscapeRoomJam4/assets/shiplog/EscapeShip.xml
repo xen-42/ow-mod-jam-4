@@ -1,0 +1,378 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>EscapeShip</ID>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_INTRO</ID>
+    <Name>WYRM_XEN_JAM_4_INTRO_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INTRO</Curiosity>
+    <IsCuriosity/>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INTRO_PREQUEL</ID>
+      <Text>WYRM_XEN_JAM_4_INTRO_PREQUEL</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INTRO_LOCK</ID>
+      <Text>WYRM_XEN_JAM_4_INTRO_LOCK</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_DOOR_ONE</ID>
+    <Name>WYRM_XEN_JAM_4_DOOR_ONE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INTRO</Curiosity>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_ONE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_ONE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_ONE_KEY</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_ONE_KEY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_ONE_LOCK</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_ONE_LOCK</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_MUSIC</ID>
+    <Name>WYRM_XEN_JAM_4_MUSIC_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INTRO</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_MUSIC_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INTRO</SourceID>
+      <Text>WYRM_XEN_JAM_4_MUSIC_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_MUSIC_SIGNAL</ID>
+      <Text>WYRM_XEN_JAM_4_MUSIC_SIGNAL</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_MUSIC_CHEST</ID>
+      <Text>WYRM_XEN_JAM_4_MUSIC_CHEST</Text>
+    </ExploreFact>
+  </Entry>
+  
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_PILLARS</ID>
+    <Name>WYRM_XEN_JAM_4_PILLARS_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INTRO</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_PILLARS_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INTRO</SourceID>
+      <Text>WYRM_XEN_JAM_4_PILLARS_RUMOR</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_MUSIC</SourceID>
+      <Text>WYRM_XEN_JAM_4_PILLARS_MUSIC_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_PILLARS_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_PILLARS_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_PILLARS_BUTTONS</ID>
+      <Text>WYRM_XEN_JAM_4_PILLARS_BUTTONS</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_ARROWS</ID>
+    <Name>WYRM_XEN_JAM_4_ARROWS_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INTRO</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_ARROWS_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INTRO</SourceID>
+      <Text>WYRM_XEN_JAM_4_ARROWS_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_ARROWS_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_ARROWS_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_ARROWS_SOLVED</ID>
+      <Text>WYRM_XEN_JAM_4_ARROWS_SOLVED</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_ARROWS_SECRET</ID>
+      <!--Should be hidden so you don't mess with it until you're gotten the hint-->
+      <IgnoreMoreToExplore/>
+      <Text>WYRM_XEN_JAM_4_ARROWS_SECRET</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Layer 2-->
+  
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_NOMAI</ID>
+    <Name>WYRM_XEN_JAM_4_NOMAI_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+    <IsCuriosity/>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_ONE_OPEN_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_DOOR_ONE</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>WYRM_XEN_JAM_4_DOOR_ONE_OPEN_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_NOMAI_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_NOMAI_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_DOOR_TWO</ID>
+    <Name>WYRM_XEN_JAM_4_DOOR_TWO_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_TWO_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_TWO_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_QUANTUM</ID>
+    <Name>WYRM_XEN_JAM_4_QUANTUM_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_QUANTUM_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_NOMAI</SourceID>
+      <Text>WYRM_XEN_JAM_4_QUANTUM_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_QUANTUM_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_QUANTUM_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_SCROLLS</ID>
+    <Name>WYRM_XEN_JAM_4_SCROLLS_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_SCROLLS_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_NOMAI</SourceID>
+      <Text>WYRM_XEN_JAM_4_SCROLLS_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_SCROLLS_PICKUP</ID>
+      <Text>WYRM_XEN_JAM_4_SCROLLS_PICKUP</Text>
+    </ExploreFact>
+  </Entry>
+  
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_INTERFACE</ID>
+    <Name>WYRM_XEN_JAM_4_INTERFACE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_INTERFACE_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_NOMAI</SourceID>
+      <Text>WYRM_XEN_JAM_4_INTERFACE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INTERFACE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_INTERFACE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INTERFACE_SECRET</ID>
+      <IgnoreMoreToExplore/>
+      <Text>WYRM_XEN_JAM_4_INTERFACE_SECRET</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_TRIANGLE</ID>
+    <Name>WYRM_XEN_JAM_4_TRIANGLE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_NOMAI</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_TRIANGLE_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_NOMAI</SourceID>
+      <Text>WYRM_XEN_JAM_4_TRIANGLE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_TRIANGLE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_TRIANGLE_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+  
+  <!--Layer 3-->
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_INHABITANT</ID>
+    <Name>WYRM_XEN_JAM_4_INHABITANT_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+    <IsCuriosity/>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_TWO_OPEN_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_DOOR_TWO</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>WYRM_XEN_JAM_4_DOOR_TWO_OPEN_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INHABITANT_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_INHABITANT_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_INHABITANT_SIGNALS</ID>
+      <Text>WYRM_XEN_JAM_4_INHABITANT_SIGNALS</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_DOOR_THREE</ID>
+    <Name>WYRM_XEN_JAM_4_DOOR_THREE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_THREE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_THREE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_THREE_OPEN</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_THREE_OPEN</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_DOOR_THREE_KEY</ID>
+      <Text>WYRM_XEN_JAM_4_DOOR_THREE_KEY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_TOTEM</ID>
+    <Name>WYRM_XEN_JAM_4_TOTEM_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_TOTEM_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INHABITANT</SourceID>
+      <Text>WYRM_XEN_JAM_4_TOTEM_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_TOTEM_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_TOTEM_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_HOUSE</ID>
+    <Name>WYRM_XEN_JAM_4_HOUSE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_HOUSE_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INHABITANT</SourceID>
+      <Text>WYRM_XEN_JAM_4_HOUSE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_HOUSE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_HOUSE_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_CODE</ID>
+    <Name>WYRM_XEN_JAM_4_CODE_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_CODE_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INHABITANT</SourceID>
+      <Text>WYRM_XEN_JAM_4_CODE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_HINT_1</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_HINT_1</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_HINT_2</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_HINT_2</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_HINT_3</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_HINT_3</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_HINT_4</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_HINT_4</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_CODE_HINT_5</ID>
+      <Text>WYRM_XEN_JAM_4_CODE_HINT_5</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>WYRM_XEN_JAM_4_LOCKER</ID>
+    <Name>WYRM_XEN_JAM_4_LOCKER_NAME</Name>
+    <Curiosity>WYRM_XEN_JAM_4_INHABITANT</Curiosity>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_LOCKER_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_INHABITANT</SourceID>
+      <RumorName>WYRM_XEN_JAM_4_LOCKER_NAME</RumorName>
+      <RumorNamePriority>10</RumorNamePriority>
+      <Text>WYRM_XEN_JAM_4_LOCKER_RUMOR</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>WYRM_XEN_JAM_4_LOCKER_CODE_RUMOR</ID>
+      <SourceID>WYRM_XEN_JAM_4_CODE</SourceID>
+      <RumorName>WYRM_XEN_JAM_4_LOCKER_RUMOR_NAME</RumorName>
+      <RumorNamePriority>5</RumorNamePriority>
+      <Text>WYRM_XEN_JAM_4_LOCKER_CODE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>WYRM_XEN_JAM_4_LOCKER_IDENTIFY</ID>
+      <Text>WYRM_XEN_JAM_4_LOCKER_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+  
+</AstroObjectEntry>
