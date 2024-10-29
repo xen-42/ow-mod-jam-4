@@ -1,4 +1,5 @@
 ﻿using NewHorizons.Components.Props;
+using OWML.Utils;
 using UnityEngine;
 
 namespace EscapeRoomJam4.LockAndKey;
@@ -7,6 +8,8 @@ public static class BuildLockAndKeys
 {
     public static void Make(GameObject planetGO, LockAndKeyData data)
     {
+        EnumUtils.TryParse<ItemType>("Layer1Key", out var layer1Key);
+
         var sector = planetGO.GetComponentInChildren<Sector>();
         foreach (var lockData in data.locks)
         {
@@ -42,6 +45,10 @@ public static class BuildLockAndKeys
             {
                 socket.EnableInteraction(false);
                 audio.PlayOneShot(AudioType.ToolItemSharedStoneDrop);
+                if (socket._acceptableType == layer1Key)
+                {
+                    Locator.GetShipLogManager().RevealFact("WYRM_XEN_JAM_4_DOOR_ONE_LOCK");
+                }
             };
         }
         foreach (var keyData in data.keys)
