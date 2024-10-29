@@ -55,6 +55,9 @@ namespace EscapeRoomJam4
 
         private void OnPressInteract()
         {
+            // none of this code should run if you haven't enabled the signals yet
+            if (!PlayerData.KnowsSignal(SignalController.instance.JammerSignal)) return;
+
             var previousAudioSignal = signalObjects[activeSignal].GetComponentInChildren<AudioSignal>();
             signalObjects[activeSignal].SetActive(false);
 
@@ -70,7 +73,6 @@ namespace EscapeRoomJam4
             }
 
             // force the Signalscope away since the signal seems to not play properly
-            // TODO fix later?
             SignalController.instance.ResetSignalscope();
 
             // the first signal, 0, is always the correct one
