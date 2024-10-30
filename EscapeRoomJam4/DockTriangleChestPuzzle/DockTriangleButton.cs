@@ -31,6 +31,8 @@ namespace EscapeRoomJam4
         {
             int index = (int)currentColor;
             index++;
+            // remove black
+            if (index == 6) index = 7;
             if (index > 7) index = 0;
             currentColor = (TriangleColor)index;
             SetColor(currentColor);
