@@ -64,7 +64,6 @@ namespace EscapeRoomJam4
                 var coordPuzzle = escapeShip.transform.Find("Sector/VesselInterfacePuzzle").gameObject.AddComponent<CoordinateInterfacePuzzleController>();
                 coordPuzzle.gameObject.AddComponent<ChromeToSandstoneReplacer>();
 
-                // TODO: Hook this up to outer door opening/closing
                 // Has to wait at least one frame
                 ModHelper.Events.Unity.FireOnNextUpdate(() =>
                 {
@@ -77,18 +76,6 @@ namespace EscapeRoomJam4
                 {
                     BuildLockAndKeys.Make(NewHorizons.GetPlanet("EscapeShip"), data);
                 }
-
-                // Load in the coordinate ceiling mural manually because Unity scares me
-                var tex = ImageUtilities.GetTexture(this, "assets/images/ceiling_mural.png");
-                var ceilingMural = GameObject.CreatePrimitive(PrimitiveType.Quad);
-                var ceilingMuralMF = ceilingMural.GetComponent<MeshRenderer>();
-                ceilingMuralMF.material.mainTexture = tex;
-                ceilingMuralMF.material.shader = Shader.Find("UI/Unlit/Transparent");
-                ceilingMural.transform.parent = escapeShip.transform.Find("Sector");
-                ceilingMural.transform.localPosition = new Vector3(0, 7.84f, 0);
-                ceilingMural.transform.localRotation = Quaternion.Euler(270, 0, 90);
-                ceilingMural.transform.localScale = new Vector3(8, 3.2f, 1);
-                ceilingMural.gameObject.layer = LayerMask.NameToLayer("VisibleToProbe");
 
                 // Fix signals
                 new GameObject(nameof(SignalSyncManager)).AddComponent<SignalSyncManager>();
