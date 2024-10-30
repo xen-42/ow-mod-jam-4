@@ -64,7 +64,7 @@
     },
     "ShipLogDictionary": {
         "WYRM_XEN_JAM_4_INTRO_NAME": "Dark Dock",
-        "WYRM_XEN_JAM_4_INTRO_PREQUEL": "I found a mysterious black and white box, but when I touched it, I passed out. When I came to, I found myself isolated in this strange room, with my ship's thrusters and my scout's launcher disabled. I must find a way to escape.",
+        "WYRM_XEN_JAM_4_INTRO_PREQUEL": "I found a mysterious black and white box, but when I touched it, I passed out. When I came to, I found myself <color=orange>isolated</color> in this strange room, with my ship's thrusters and my scout's launcher disabled. I must find a way to <color=orange>escape</color>.",
         "WYRM_XEN_JAM_4_INTRO_LOCK": "There was a hexagon-shaped slot directly above me when I woke up.",
         "WYRM_XEN_JAM_4_DOOR_ONE_NAME": "Mysterious Door",
         "WYRM_XEN_JAM_4_DOOR_ONE_IDENTIFY": "There is a closed door on one side of the dock. There doesn't seem to be a way to open it. There are three hexagonal slots on the wall to the right of it.",
@@ -82,7 +82,7 @@
         "WYRM_XEN_JAM_4_PILLARS_BUTTONS": "Pressing the button on a pillar changes the signal the pillar produces.",
         "WYRM_XEN_JAM_4_ARROWS_NAME": "Box With Arrows",
         "WYRM_XEN_JAM_4_ARROWS_RUMOR": "There is a box with three arrows of different colors on it.",
-        "WYRM_XEN_JAM_4_ARROWS_IDENTIFY": "The box has three arrows on it that, when pressed, change in color.",
+        "WYRM_XEN_JAM_4_ARROWS_IDENTIFY": "The box has three arrows on it that, when pressed, change in color. There must be hints nearby as to the correct colors, it may be worth investigating this room from <color=orange>every angle</color>.",
         "WYRM_XEN_JAM_4_ARROWS_SOLVED": "When I set certain colors on the box, it opened up a drawer with a glowing hexagon I can pick up.",
         "WYRM_XEN_JAM_4_ARROWS_SECRET": "I put in a secret code on the chest. A secret compartment opened up, revealing two green symbols.",
         "WYRM_XEN_JAM_4_NOMAI_NAME": "Nomai Chamber",
