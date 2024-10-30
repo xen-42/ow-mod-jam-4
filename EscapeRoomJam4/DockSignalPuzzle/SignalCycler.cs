@@ -86,6 +86,8 @@ namespace EscapeRoomJam4
             Locator.GetPlayerAudioController().PlayEnterLaunchCodes();
 
             ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_PILLARS_BUTTONS");
+            // prevents the interaction text from going away when you press these
+            interactionVolume.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
         }
 
         public void FinishPuzzle()

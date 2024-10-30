@@ -47,7 +47,7 @@ namespace EscapeRoomJam4
             Color newColor = Color.white;
             switch (color)
             {
-                case TriangleColor.Black:
+                case TriangleColor.Black_DEPRECATED:
                     newColor = Color.black;
                     break;
                 case TriangleColor.Red:

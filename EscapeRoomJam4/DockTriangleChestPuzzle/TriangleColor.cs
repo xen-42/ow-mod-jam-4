@@ -14,7 +14,7 @@ namespace EscapeRoomJam4
         Cyan = 3,
         Blue = 4,
         Magenta = 5,
-        Black = 6,
+        Black_DEPRECATED = 6,
         White = 7
     }
 }

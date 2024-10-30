@@ -19,8 +19,13 @@ namespace EscapeRoomJam4
         private TriangleColor[] mainSolution;
         [SerializeField]
         private TriangleColor[] secretSolution;
+        [SerializeField]
+        private SingleInteractionVolume[] buttons;
 
         private TriangleColor[] storedSolution = new TriangleColor[3];
+        private bool normalSolved = false;
+        private bool secretSolved = false;
+
 
         private void Awake()
         {
@@ -31,6 +36,15 @@ namespace EscapeRoomJam4
         {
             storedSolution[id] = color;
             CheckIfSolved();
+            if (normalSolved && secretSolved) DisableButtons();
+        }
+
+        private void DisableButtons()
+        {
+            foreach (SingleInteractionVolume button in buttons)
+            {
+                button.DisableInteraction();
+            }
         }
 
         public override bool IsSolved()
@@ -44,6 +58,7 @@ namespace EscapeRoomJam4
                 if (mainSolution[i] != storedSolution[i]) return false;
             }
             ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_ARROWS_SOLVED");
+            normalSolved = true;
             return true;
         }
 
@@ -54,6 +69,7 @@ namespace EscapeRoomJam4
                 if (secretSolution[i] != storedSolution[i]) return false;
             }
             ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_ARROWS_SECRET");
+            secretSolved = true;
             return true;
         }
 

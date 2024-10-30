@@ -83,14 +83,14 @@
         "parentPath": "Sector/ScrollPuzzle",
         "type": "scroll",
         "position": {
-          "x": -12.8973,
-          "y": 7.8533,
-          "z": 13.0954
+          "x": -10.28,
+          "y": 7.65,
+          "z": 10
         },
         "rotation": {
-          "x": 90,
-          "y": 6.5909,
-          "z": 0
+          "x": 0,
+          "y": 270,
+          "z": 260
         },
         "xmlFile": "assets/text/GreenScroll.xml",
         "seed": 6,
