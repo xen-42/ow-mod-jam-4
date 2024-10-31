@@ -25,16 +25,17 @@ namespace EscapeRoomJam4.TrianglePuzzle
             interactionVolume = GetComponent<SingleInteractionVolume>();
             renderer = GetComponent<MeshRenderer>();
 
+            controller.RegisterTriangle(this);
+
             interactionVolume.ChangePrompt(EscapeRoomJam4.Instance.NewHorizons.GetTranslationForOtherText("PUSH_BUTTON"));
             interactionVolume.OnPressInteract += OnPressInteract;
         }
 
         private void OnPressInteract()
         {
+            controller.CheckTriangle(isCorrectButton, !isOn);
             isOn = !isOn;
             renderer.material = controller.GetStateMaterial(isOn);
-
-            controller.CheckTriangle(isCorrectButton, isOn);
 
             Locator.GetPlayerAudioController()._oneShotExternalSource.PlayOneShot(AudioType.Menu_LeftRight);
         }

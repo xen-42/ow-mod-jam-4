@@ -46,7 +46,6 @@ public static class BuildLockAndKeys
                 audio.PlayOneShot(AudioType.ToolItemSharedStoneDrop);
                 if (socket._acceptableType == layer1Key)
                 {
-                    EscapeRoomJam4.WriteDebug("bleh");
                     Locator.GetShipLogManager().RevealFact("WYRM_XEN_JAM_4_DOOR_ONE_LOCK");
                 }
             };
