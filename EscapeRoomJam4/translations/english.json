@@ -46,6 +46,15 @@
         "WYRM_XEN_JAM_4_TOTEM_MIDDLE": "Middle Totem",
         "WYRM_XEN_JAM_4_TOTEM_FAR": "Tall Totem",
 
+        "WYRM_XEN_JAM_4_FLASHLIGHT_OFF": "Shut off flashlight to extinguish",
+        "WYRM_XEN_JAM_4_FLASHLIGHT_ON": "Flashlight required",
+
+        "WYRM_XEN_JAM_4_ARROW_BLUE": "Blue Arrow",
+        "WYRM_XEN_JAM_4_ARROW_WHITE": "White Arrow",
+        "WYRM_XEN_JAM_4_ARROW_YELLOW": "Yellow Arrow",
+
+        "EOTP_SNEAK": "Sneak",
+
         "EscapeShip": "Mysterious Vessel",
         "Fake1": ">",
         "Fake2": ">",
