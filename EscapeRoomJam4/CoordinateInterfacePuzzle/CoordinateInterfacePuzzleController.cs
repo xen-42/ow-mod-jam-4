@@ -28,7 +28,15 @@ public class CoordinateInterfacePuzzleController : Puzzle
         GameObject.Destroy(GetComponentInChildren<EyeCoordinatePromptTrigger>().gameObject);
         _interface = GetComponent<NomaiCoordinateInterface>();
 
-        _interface._raisePillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => _interface.SetPillarRaised(true, true);
+        _interface._raisePillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) =>
+        {
+            foreach (var node in _interface._nodeControllers)
+            {
+                // Have to reset them else you get soft locked if its the eye coords
+                node.ResetNodes();
+            }
+            _interface.SetPillarRaised(true, true);
+        };
         _interface._lowerPillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => _interface.SetPillarRaised(false, false);
         _interface._lowerPillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => CheckIfSolved();
         _interface._lowerPillarSlot.OnSlotActivated += (NomaiInterfaceSlot _) => CheckAlternateSolution();
@@ -77,19 +85,6 @@ public class CoordinateInterfacePuzzleController : Puzzle
             _secretSolved = true;
             SecretSolution?.Invoke();
             ShipLogFactRevealer.instance.RevealFact("WYRM_XEN_JAM_4_INTERFACE_SECRET");
-        }
-    }
-
-    [HarmonyPostfix, HarmonyPatch(typeof(NomaiCoordinateInterface), nameof(NomaiCoordinateInterface.CheckEyeCoordinates))]
-    public static void NomaiCoordinateInterface_CheckEyeCoordinates(NomaiCoordinateInterface __instance, ref bool __result)
-    {
-        if (EscapeRoomJam4.InEscapeSystem())
-        {
-            // This way it disables raising it
-            //__result = _instance._secretSolved && _instance._wasSolved;
-
-            // Actually we want to let it still work
-            __result = false;
         }
     }
 

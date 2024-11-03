@@ -14,7 +14,7 @@ public class GhostWalkController : MonoBehaviour
 
     private Animator _animator;
 
-    private Vector3 _destination;
+    private Vector3 _localDestination;
 
     private Vector2 _smoothedMoveSpeed;
     private DampedSpring2D _moveSpeedSpring = new(50f, 1f);
@@ -54,9 +54,9 @@ public class GhostWalkController : MonoBehaviour
         instance = this;
     }
 
-    public void WalkTo(Vector3 destination)
+    public void WalkTo(Vector3 globalDestination)
     {
-        _destination = destination;
+        _localDestination = transform.parent.InverseTransformPoint(globalDestination);
         _isWalking = true;
         _audioSource.PlayOneShot(AudioType.Ghost_Identify_Curious);
     }
@@ -128,8 +128,7 @@ public class GhostWalkController : MonoBehaviour
 
     private void UpdateWalk()
     {
-        var localDestination = transform.parent.InverseTransformPoint(_destination);
-        var disp = localDestination - transform.localPosition;
+        var disp = _localDestination - transform.localPosition;
         var relativeVelocity = disp.normalized * _speed;
 
         var flatDirection = Vector3.ProjectOnPlane(disp, Vector3.up).normalized;
@@ -154,7 +153,7 @@ public class GhostWalkController : MonoBehaviour
         var stepSize = relativeVelocity * Time.deltaTime;
         if (stepSize.magnitude > disp.magnitude)
         {
-            transform.localPosition = localDestination;
+            transform.localPosition = _localDestination;
             _isWalking = false;
             return;
         }
