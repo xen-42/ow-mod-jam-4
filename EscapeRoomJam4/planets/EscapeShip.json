@@ -9,6 +9,9 @@
     "surfaceSize": 400,
     "showMinimap": false
   },
+  "ReferenceFrame": {
+    "enabled": false
+  },
   "AmbientLights": [
     {
       "innerRadius": 0,

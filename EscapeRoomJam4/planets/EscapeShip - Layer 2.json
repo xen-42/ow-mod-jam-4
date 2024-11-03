@@ -8,114 +8,76 @@
         "rename": "GhostMatter"
       },
       {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/DetailPatches_EyeDistrict/EyeShrine_Exterior/Props_GM_Clutter (11)",
         "parentPath": "Sector/GhostMatter",
         "position": {
-          "x": -3.854538,
-          "y": 7.798687,
-          "z": -6.81425
+          "x": -4.2949,
+          "y": 7.5514,
+          "z": 4.235
         },
         "rotation": {
-          "x": 0,
-          "y": 329.5551,
-          "z": 180
-        }
-      },
-      {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
-        "parentPath": "Sector/GhostMatter",
-        "position": {
-          "x": 7.015858,
-          "y": 7.798687,
-          "z": 0.3557777
-        },
-        "rotation": {
-          "x": 0,
-          "y": 282.9849,
-          "z": 180
-        }
-      },
-      {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
-        "parentPath": "Sector/GhostMatter",
-        "position": {
-          "x": -7.229483,
-          "y": 7.798687,
-          "z": 6.431378
-        },
-        "rotation": {
-          "x": 0,
+          "x": 355.7142,
           "y": 237.3651,
-          "z": 180
-        }
+          "z": 184.9347
+        },
+        "rename": "Ceiling_Props_GM_Clutter (1)"
       },
       {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/DetailPatches_EyeDistrict/EyeShrine_Exterior/Props_GM_Clutter (11)",
         "parentPath": "Sector/GhostMatter",
         "position": {
-          "x": 7.015858,
-          "y": 7.798687,
-          "z": 0.3557777
+          "x": 3.685,
+          "y": 7.3932,
+          "z": 0.3558
         },
         "rotation": {
-          "x": 0,
-          "y": 282.9849,
-          "z": 180
-        }
+          "x": 355.2032,
+          "y": 329.6081,
+          "z": 183.5692
+        },
+        "rename": "Ceiling_Props_GM_Clutter (2)"
       },
       {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/DetailPatches_BrambleIsland/Foliage/Hallow_Vine/Props_GhostMatter/Props_GM_Clutter",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/DetailPatches_EyeDistrict/EyeShrine_Exterior/Props_GM_Clutter (11)",
         "parentPath": "Sector/GhostMatter",
         "position": {
-          "x": -8.053011,
-          "y": 7.798687,
-          "z": -2.449989
+          "x": -6.0785,
+          "y": 7.4769,
+          "z": -2.45
         },
         "rotation": {
-          "x": 0,
-          "y": 340.7823,
-          "z": 180
-        }
+          "x": 357.6615,
+          "y": 330.4874,
+          "z": 182.3021
+        },
+        "rename": "Ceiling_Props_GM_Clutter (3)"
       },
       {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
+        "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/DetailPatches_EyeDistrict/EyeShrine_Exterior/Props_GM_Clutter (11)",
         "parentPath": "Sector/GhostMatter",
         "position": {
-          "x": -8,
-          "y": 12.7,
-          "z": -2.5
+          "x": 0.3207,
+          "y": 6.3663,
+          "z": 20.4282
         },
         "rotation": {
-          "x": 0,
-          "y": 340.7823,
-          "z": 180
-        }
-      },
-      {
-        "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
-        "parentPath": "Sector/GhostMatter",
-        "position": {
-          "x": 9,
-          "y": 12.7,
-          "z": -2.5
+          "x": 72.6037,
+          "y": 276.7113,
+          "z": 98.0131
         },
-        "rotation": {
-          "x": 0,
-          "y": 340.7823,
-          "z": 180
-        }
+        "rename": "QuantumPuzzle_Props_GM_Clutter"
       },
       {
         "path": "BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible/Effects_GM_AuroraWisps (1)",
         "parentPath": "Sector/GhostMatter",
         "position": {
-          "x": 2.5,
-          "y": 12.7,
-          "z": 9.5
+          "x": 0,
+          "y": 13.5,
+          "z": 0
         },
         "rotation": {
           "x": 0,
-          "y": 340.7823,
+          "y": 240,
           "z": 180
         }
       }
