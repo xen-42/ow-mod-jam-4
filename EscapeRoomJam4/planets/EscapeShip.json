@@ -359,6 +359,18 @@
         "deathType": "timeLoop",
         "gameOverText": "WYRM_XEN_JAM_4_CREDITS",
         "rename": "CreditsVolume"
+      },
+      {
+        "position": {
+          "x": 100000,
+          "y": 0,
+          "z": 0
+        },
+        "radius": 1000,
+        "creditsType": "kazoo",
+        "deathType": "meditation",
+        "gameOverText": "WYRM_XEN_JAM_4_KAZOO_CREDITS",
+        "rename": "KazooCreditsVolume"
       }
     ]
   },
