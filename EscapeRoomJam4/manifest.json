@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "EscapeRoomJam4.dll",
-  "author": "xen and Wyrm",
+  "author": "Wyrm and xen",
   "name": "Escape Room",
   "uniqueName": "xen.EscapeRoomJam4",
   "version": "0.1.0",
