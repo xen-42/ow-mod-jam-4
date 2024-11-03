@@ -29,6 +29,7 @@ public class PropulsionDisabledController : MonoBehaviour
     public void TurnOff()
     {
         //PlayerResourcesPatches.JetpackDisabled = false;
+        LandingPadManagerPatches.ThrustersDisabled = false;
         ProbeLauncherPatches.ProbeLauncherDisabled = false;
         NotificationManager.SharedInstance.UnpinNotification(_shipAndJetpackDisabled);
         foreach (var thruster in _shipThrusters)
@@ -40,6 +41,7 @@ public class PropulsionDisabledController : MonoBehaviour
     public void TurnOn()
     {
         //PlayerResourcesPatches.JetpackDisabled = true;
+        LandingPadManagerPatches.ThrustersDisabled = true;
         ProbeLauncherPatches.ProbeLauncherDisabled = true;
         NotificationManager.SharedInstance.PostNotification(_shipAndJetpackDisabled, true);
         foreach (var thruster in _shipThrusters)
