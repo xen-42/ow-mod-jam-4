@@ -1,4 +1,5 @@
 ﻿using EscapeRoomJam4.CoordinateInterfacePuzzle;
+using EscapeRoomJam4.DisableThrusters;
 using EscapeRoomJam4.DockSignalPuzzle;
 using EscapeRoomJam4.GhostPuzzle;
 using EscapeRoomJam4.Jetpack;
@@ -58,6 +59,7 @@ namespace EscapeRoomJam4
                 escapeShip.gameObject.AddComponent<PropulsionDisabledNotification>();
                 escapeShip.gameObject.AddComponent<ResurrectionController>();
                 escapeShip.gameObject.AddComponent<FuelReplenisher>();
+                escapeShip.gameObject.AddComponent<GameOverManager>();
 
                 escapeShip.transform.Find("Sector/GhostBird").gameObject.AddComponent<GhostWalkController>();
 
