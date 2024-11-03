@@ -14,7 +14,7 @@
           "position": {
             "x": 30.9,
             "y": 1.5,
-            "z": 2.75
+            "z": 2.55
           },
           "rotation": {
             "x": 0,
@@ -48,7 +48,7 @@
           "position": {
             "x": 30.9,
             "y": 1.5,
-            "z": 4.25
+            "z": 4.45
           },
           "rotation": {
             "x": 0,
@@ -179,7 +179,7 @@
       "keys": [
         {
           "itemType": "Layer1Key",
-          "name": "Key 1",
+          "name": "LAYER_1_KEY",
           "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
@@ -196,7 +196,7 @@
         },
         {
           "itemType": "Layer1Key",
-          "name": "Key 1",
+          "name": "LAYER_1_KEY",
           "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
@@ -204,7 +204,7 @@
         },
         {
           "itemType": "Layer1Key",
-          "name": "Key 1",
+          "name": "LAYER_1_KEY",
           "scale": 0.3,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer1Key.prefab",
@@ -212,7 +212,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Sandstone Key",
+          "name": "LAYER_2_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
@@ -220,7 +220,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Sandstone Key",
+          "name": "LAYER_2_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
@@ -228,7 +228,7 @@
         },
         {
           "itemType": "Layer2Key",
-          "name": "Sandstone Key",
+          "name": "LAYER_2_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer2Key.prefab",
@@ -236,7 +236,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Strange Key",
+          "name": "LAYER_3_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
@@ -244,7 +244,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Strange Key",
+          "name": "LAYER_3_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
@@ -252,7 +252,7 @@
         },
         {
           "itemType": "Layer3Key",
-          "name": "Strange Key",
+          "name": "LAYER_3_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/Layer3Key.prefab",
@@ -260,7 +260,7 @@
         },
         {
           "itemType": "FinalKey",
-          "name": "Final Key",
+          "name": "FINAL_KEY",
           "scale": 0.15,
           "assetBundle": "assets/bundles/locksandkeys",
           "path": "Assets/Jam4/Prefabs/FinalKey.prefab",
