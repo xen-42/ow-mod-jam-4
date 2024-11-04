@@ -1,13 +1,34 @@
 ManifestFileVersion: 0
-CRC: 2629501415
+CRC: 3215134494
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: escapeship
-      Dependencies: {}
-    Info_1:
       Name: quantumpuzzle
-      Dependencies: {}
-    Info_2:
+      Dependencies:
+        Dependency_0: assets
+        Dependency_1: structure_nom
+    Info_1:
       Name: locksandkeys
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: assets
+        Dependency_1: structure_nom
+        Dependency_2: structure_stranger
+    Info_2:
+      Name: escape_room
+      Dependencies:
+        Dependency_0: assets
+        Dependency_1: structure_nom
+        Dependency_2: structure_stranger
+    Info_3:
+      Name: assets
+      Dependencies:
+        Dependency_0: structure_nom
+        Dependency_1: structure_stranger
+    Info_4:
+      Name: structure_nom
+      Dependencies:
+        Dependency_0: assets
+    Info_5:
+      Name: structure_stranger
+      Dependencies:
+        Dependency_0: assets
