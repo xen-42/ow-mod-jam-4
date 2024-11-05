@@ -51,7 +51,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Remove="assets\bundles\*.manifest" />
-    <None Remove="assets\bundles\assets" />
     <None Remove="assets\bundles\bundles" />
     <None Include="assets\text\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
