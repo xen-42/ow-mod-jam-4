@@ -88,6 +88,8 @@ internal class ResurrectionController : MonoBehaviour
         yield return new WaitForSeconds(eyeCloseTime);
         OWInput.ChangeInputMode(InputMode.Character);
 
+        _resources.StopRefillResources();
+
         ReticleController.Show();
         Locator.GetPromptManager().SetPromptsVisible(true);
 
