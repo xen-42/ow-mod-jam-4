@@ -1,0 +1,667 @@
+ManifestFileVersion: 0
+CRC: 224271633
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d554217b72946b6b69b036faf4427f1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7d772dd008ef6d1e3ae48acf58a9724d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00a9e6714bce8f456201f9247234a753, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4237ce5351e9eb97fe42f42d8509304b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d213e1421b973fcb0ec6d3b7bb1aa62, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 505571780, guid: 8abc09e4b3790854c8b5f40f242a37cd, type: 3}
+- Class: 114
+  Script: {fileID: -1440129975, guid: 8abc09e4b3790854c8b5f40f242a37cd, type: 3}
+- Class: 114
+  Script: {fileID: 2063567438, guid: 8abc09e4b3790854c8b5f40f242a37cd, type: 3}
+- Class: 114
+  Script: {fileID: -1117130383, guid: 8abc09e4b3790854c8b5f40f242a37cd, type: 3}
+- Class: 114
+  Script: {fileID: 1895051061, guid: 8abc09e4b3790854c8b5f40f242a37cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3996b1555577e30b225f06ccccf9dfc4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25360727eba447720234f7b1318798a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7bc1228a33a64798dea9fa5e72efdb8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4da0a958f3fbe8dbdfc02aae165e1b82, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b895e78b496f0b8d3aa4cd1fbe3ef9e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7470d0e9ff90057e91d82aceca496119, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 47aab37ceed8f8a800f7135fd21e363d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e11eddccdeed1ad71a00efc43d35a5ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 072d7fcce770962d8dd027474a8e3a19, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be39111e83bec25a200ff22841bd041c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62389b8e30976189aff1020795052659, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a1f326afd8115cd8f4068186646cea5d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/face.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ProjectionTotem_geo.asset
+- Assets/Jam4/Prefabs/TrianglePuzzleButton.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Pillar 5.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing_L.asset
+- Assets/Resources/editor/textures/CylinderShape.png
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_props/symbol_project_plane.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 8.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Full.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Structure 1.asset
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Particles_Additive.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Collider.asset
+- Assets/Mesh/COL_Wall_0.asset
+- Assets/Mesh/COL_Railing_1.asset
+- Assets/Mesh/Static_Plate.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Goblet.asset
+- Assets/Mesh/COL_Railing.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Beam.asset
+- Assets/Mesh/codeTotem_col.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Container_geo.asset
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Row3.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Vase.asset
+- Assets/Jam4/Models/LockAndKey.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Archway 1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Chair.asset
+- Assets/Mesh/Mangrove_Hanging_DW_3.asset
+- Assets/Jam4/Prefabs/Anon_Sign_2W.prefab
+- Assets/Owlk Ruins/Prefabs/cables/Cable_Socket.prefab
+- Assets/Mesh/COL_Stilt.asset
+- Assets/Mesh/Mangrove_M_Foliage_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Chair_Back.asset
+- Assets/Jam4/Animations/DockChest/OpeningSecret.anim
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamGridVP_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Base.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/LidBottom.asset
+- Assets/Owlk Ruins/meshes/SimRoofs.fbx
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Row2.asset
+- Assets/Nomai Ruins/Prefabs/Floor.prefab
+- Assets/Nomai Ruins/Prefabs/Railing.prefab
+- Assets/Owlk Ruins/meshes/RockClutter.fbx
+- Assets/Shader/Outer Wilds_Environment_Foliage.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Tree_DW_MangroveBark_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmalTractorBeam_mask.png
+- Assets/Owlk Ruins/Prefabs/Clean/Railing_IP.prefab
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_Riverbed_n.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ProjectionTotem_Crown.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Flame 1.asset
+- Assets/Mesh/ProjectorTotem_tall_col.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/COL_Mangrove_Straight_DW.asset
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_M_Straight_Var.prefab
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamGridDesaturated_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 6.asset
+- Assets/Mesh/COL_Crate_0.asset
+- Assets/Jam4/Texture2D/InterfaceTexture.png
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotemController_Ring.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Beam.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/head.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Static_Plate 1.asset
+- Assets/Shader/Legacy Shaders_VertexLit.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_Cable_Wide.asset
+- Assets/Nomai Ruins/Resources/Materials/NoiseRGB_d.png
+- Assets/Owlk Ruins/materials/Terrain_IP_SimulationInteractible_mat.mat
+- Assets/Resources/editor/textures/BoxShape.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_PyramidBlck_Geo.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stairs_IP_Half_Railing.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Floor.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/COL_Mangrove_Straight_DW_Ext.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Full_Horz.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Large_Frame.asset
+- Assets/Mesh/Mangrove_Hanging_DW_0.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ring05.asset
+- Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
+- Assets/Texture2D/LOD_Structure_EYE_Steel_s.png
+- Assets/importedStuff/Shader/Outer Wilds_Environment_Invisible Planet_Cutoff Double
+  Sided.asset
+- Assets/Mesh/COL_Mangrove_Trunk_DW_Ext.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_4M_End_R.prefab
+- Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Vase.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_ProjectionIndicator.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof.asset
+- Assets/Texture2D/Terrain_IP_Cliffside_n.png
+- Assets/Vanilla Stuff/Shaders/Outer Wilds_Environment_Water.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredGround_Single.prefab
+- Assets/Owlk Ruins/materials/LordFoogThe2st.jpg
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Brace_R_Lower.asset
+- Assets/Mesh/CodeTotemControls_col.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ring02.asset
+- Assets/Mesh/Mangrove_Straight_DW.asset
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_LeafCover_n.png
+- Assets/Texture2D/Effects_IP_Grain16_n.png
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_DW_CodeTotem.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall_IP_DW_Archway_Post_Tall.asset
+- Assets/Jam4/Materials/QuantumHint.mat
+- Assets/Texture2D/LOD_Structure_EYE_Steel_n.png
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Selector.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_Lamp_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Rotating_Ring 3.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Glow.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Jam4/Animations/DockChest/DockChest.controller
+- Assets/Mesh/Ghostbird_Instrument_geo.asset
+- Assets/Jam4/Animations/DockChest/OpeningMain.anim
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Eye.asset
+- Assets/Mesh/COL_IP_Door_A_2.asset
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamLightVP_mat.mat
+- Assets/Materials/environment/invisiblePlanet/Props/Tree_IP_MangroveLeaves_d.png
+- Assets/Mesh/COL_Mangrove_Stumpy_DW_Ext.asset
+- Assets/Texture2D/LOD_Structure_EYE_Steel_ao.png
+- Assets/Mesh/CandleCover_Single_Frame.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Support.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/eye 1.asset
+- Assets/Shader/Outer Wilds_Environment_Invisible Planet_Light Sensor Glass (Door).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/COL_Mangrove_Hanging_DW 2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Young_Moss.asset
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamRingReverse_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 7.asset
+- Assets/Texture2D/Effects_IP_Gem_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Brace_L_Upper.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Plate.asset
+- Assets/Mesh/SingleSlideProjector_Stool.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/eye.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Broken_Collider.asset
+- Assets/Jam4/Materials/DWInterfaceLocks.mat
+- Assets/Jam4/Models/TrianglePuzzle.fbx
+- Assets/Mesh/COL_Pillar_Tall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/InteriorGlow.asset
+- Assets/Jam4/Materials/InterfaceHint.mat
+- Assets/Mesh/Mangrove_M_Foliage_DW_2.asset
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Tractor Beam.asset
+- Assets/Owlk Ruins/Prefabs/Clean/GhostBed_IP_DW_Wall.prefab
+- Assets/Material/Props_DW_CandleWax_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ring01.asset
+- Assets/Owlk Ruins/Prefabs/Rocks/RockClutter_Big.prefab
+- Assets/Mesh/codeTotem_head_col.asset
+- Assets/Jam4/Prefabs/SignalCycleButton.prefab
+- Assets/Jam4/Audio/OW_PR_FallingIntoLavaBeep_loop.ogg
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall 3.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Antler.asset
+- Assets/Jam4/Prefabs/NomaiChest.prefab
+- Assets/Mesh/Mangrove_Hanging_DW_1.asset
+- Assets/Mesh/COL_Mangrove_L_Trunk_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Archway_L.asset
+- Assets/Texture2D/Noise_d.png
+- Assets/Owlk Ruins/materials/Tree_IP_DW_MangroveLeaves_mat.mat
+- Assets/Jam4/Animations/NomaiChest/Opening.anim
+- Assets/Owlk Ruins/materials/Props_DW_CandlePaper_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Stilt.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Floor_IP.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CodeTotemControls_geo.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/col_GhostBed_Brace_L_Lower.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_GhostBirdInstrument.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Door_Interface.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/DoorWall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Paper.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Large_Paper.asset
+- Assets/Jam4/Animations/DockChest/OpenSecret.anim
+- Assets/BatchedMeshes/GRASK Default Foliage_DW_Ground_mat GlobalObjectId_V1-2-0bce8f7e852370f4a97e9cfbfe716531-5753408987885799245-0
+  GlobalObjectId_V1-3-9246875b9dece874580ebd11dac3495f-2100000-0.mesh
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing_R 1.asset
+- Assets/Jam4/Animations/StageButton/PressCorrect.anim
+- Assets/Mesh/COL_Pillar_2.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Lamp_Glow_Diamond_Wall.asset
+- Assets/Mesh/Mangrove_M_Foliage_DW_1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall_IP_Full.asset
+- Assets/Jam4/Models/StartingPlatform.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_LatticeWall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/COL_Mangrove_Hanging_DW.asset
+- Assets/Vanilla Stuff/Texture2D/ExtinctionGradient_IP_River_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Leaves_B.asset
+- Assets/Jam4/Texture2D/HintsGlow.png
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Archway_Post_Tall.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Strucutre_NOM_Wall_Corner_L_Geo.asset
+- Assets/Shader/Outer Wilds_Blended_Layered_Vertex Color (2 Layers).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing.asset
+- Assets/Nomai Ruins/Prefabs/ToyShip.prefab
+- Assets/Mesh/Mangrove_Trunk_DW_0.asset
+- Assets/Owlk Ruins/materials/Exterior_IP_Iron_mat.mat
+- Assets/Mesh/stand_top.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Mid.prefab
+- Assets/Nomai Ruins/Prefabs/Tractor Beam.prefab
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Decal).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall 5.asset
+- Assets/Jam4/Animations/NomaiChest/NomaiChest.controller
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Stool.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_ToyShip_Geo.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/DoorWall 1.asset
+- Assets/Texture2D/Tree_IP_MangroveBark_n.png
+- Assets/Mesh/COL_LidBottom.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Blocker.asset
+- Assets/Jam4/Audio/JetPack_NotificationBeep_Fast.wav
+- Assets/Texture2D/NoiseSubtle_d.png
+- Assets/Mesh/COL_Stair_1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Pillar 4.asset
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
+- Assets/Mesh/Mangrove_L_Foliage.asset
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotemController_Base.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 6.asset
+- Assets/Mesh/COL_Wall_Half.asset
+- Assets/Resources/textures/Black_d.png
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_M.prefab
+- Assets/Mesh/Mangrove_L_Trunk_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing_R.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Geo.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_CandleWax_e.png
+- Assets/Jam4/Materials/PillarEmit.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Roof 5.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Door_A 1.asset
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
+- Assets/Material/Exterior_IP_Iron_DarkPaint_Old_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Brace_R_Upper.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_Stand_Top.asset
+- Assets/Mesh/COL_Mangrove_Hanging_DW_0.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_Crate_Sealed.asset
+- Assets/Mesh/COL_IP_Door_B_2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Leaves_D.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredHanging.prefab
+- Assets/Owlk Ruins/materials/SIM_DW_LordFoogThe2stGlow_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 5.asset
+- Assets/Jam4/Materials/DimEmit.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing_L 1.asset
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 4x.asset
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Row4.asset
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_ShoreSand_B_d.png
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_LeafCover_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_Stand_Bottom.asset
+- Assets/Owlk Ruins/materials/Decal_DW_LordFoogThe2stGlow_mat.mat
+- Assets/Jam4/Prefabs/Lamp post.prefab
+- Assets/Jam4/Models/HintPillar.fbx
+- Assets/Jam4/Materials/ButtonOff.mat
+- Assets/Jam4/Models/Layer1Chest.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall.asset
+- Assets/Nomai Ruins/Resources/Meshes/BrokenWall_Full_B_Corner_R.fbx
+- Assets/Texture2D/LOD_Tree_IP_MangroveLeaves_t.png
+- Assets/Mesh/Candle_Hanging_Collider.asset
+- Assets/Mesh/COL_Side_B.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Jug_Empty.asset
+- Assets/Mesh/COL_Archway_L.asset
+- Assets/Texture2D/Terrain_IP_Cliffside_d.png
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Leaves_A.asset
+- Assets/Mesh/COL_Pillar_5.asset
+- Assets/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_n.png
+- Assets/Mesh/COL_Railing_R_0.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Vase.prefab
+- Assets/Jam4/Materials/Hint67.mat
+- Assets/Mesh/Mangrove_Trunk_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_BoardGame.asset
+- Assets/Jam4/Animations/LockedDoor/Open.anim
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall_Half.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_Corner_Outside.prefab
+- Assets/Mesh/COL_Lattice.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Lattice.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_Stand_Mid.asset
+- Assets/Jam4/Animations/LockedDoor/LockedDoor.controller
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_Emissive_mat.mat
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Body.asset
+- Assets/Jam4/Models/WallMountain.fbx
+- Assets/Jam4/Prefabs/Props_IP_BoardGameTrianglePuzzleHint.prefab
+- Assets/Mesh/Candle_Wall_Collider.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 7.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Mangrove_M_Foliage_DW 1.asset
+- Assets/Texture2D/Effects_IP_CyberspaceGlitterLinesGrayscale_d.png
+- Assets/Mesh/CandleCover_Single_Paper.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_4M_Mid_R.prefab
+- Assets/Texture2D/NoiseRGB_d.png
+- Assets/Jam4/Materials/DWHintSign.mat
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
+- Assets/Jam4/Models/Layer1Dock.fbx
+- Assets/Jam4/Models/ArrowButton.fbx
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeam_mat.mat
+- Assets/Texture2D/Effects_IP_LanternMask_d.png
+- Assets/Jam4/Prefabs/ArrowButton.prefab
+- Assets/Jam4/Texture2D/Hint89.png
+- Assets/Texture2D/Props_DW_CandlePaper_e.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Stool.asset
+- Assets/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ring03.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_EmissiveMap.png
+- Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_8M_Mid_R.prefab
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Lock 1.asset
+- Assets/Owlk Ruins/Prefabs/cables/Props_IP_Cable_Wide.prefab
+- Assets/Mesh/COL_Lock.asset
+- Assets/Owlk Ruins/meshes/HalfWall.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/col_GhostBed_Brace_L_Upper.asset
+- Assets/Mesh/COL_Railing_L_0.asset
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_S_A.prefab
+- Assets/Jam4/Texture2D/Hint23.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Wax 1.asset
+- Assets/Shader/Outer Wilds_Effects_Flame.asset
+- Assets/Jam4/Materials/Hint23.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Mangrove_L_Trunk_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Beam 2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Frame.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_4M_End_L.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Leaves_F.asset
+- Assets/Materials/environment/invisiblePlanet/effects/dreamWorldOnly/Effects_IP_CandleFlame_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Side_A.asset
+- Assets/Texture2D/Effects_HEA_CampfireFlames_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 1.asset
+- Assets/Jam4/Animations/LockedDoor/Opening.anim
+- Assets/Jam4/Models/Layer3Terrain.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Light_Sensor 1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Tree_DW_S_A.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Lock.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Archway_Post.prefab
+- Assets/Mesh/COL_Pillar.asset
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_R.prefab
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Anchor_Collider.asset
+- Assets/Mesh/Effects_IP_SIM_Light.asset
+- Assets/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_s.png
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamGrid_mat.mat
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Plate.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Hanging_Chains.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Corner_In.prefab
+- Assets/Jam4/Animations/InhabitantChest/Open.anim
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Door_B 1.asset
+- Assets/Owlk Ruins/meshes/OwlkKitUnbatching 1.fbx
+- Assets/Vanilla Stuff/Texture2D/LOD_Effects_IP_RiverWaves_Macro.png
+- Assets/Mesh/Mangrove_Trunk_DW_Ext.asset
+- Assets/Mesh/COL_LidTop.asset
+- Assets/Owlk Ruins/meshes/DoubleSupportStilt.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ProjectionTotem_TopRing.asset
+- Assets/Jam4/Animations/NomaiChest/Open.anim
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 2.asset
+- Assets/Material/Effects_IP_CandleFlameLarge_mat.mat
+- Assets/Texture2D/LOD_Structure_IP_metalHammered_n.png
+- Assets/Owlk Ruins/meshes/CornerRoofs.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Stilt_IP_Mid.asset
+- Assets/Mesh/instrument_music_box.asset
+- Assets/Mesh/Mangrove_M_Foliage_DW_0.asset
+- Assets/Nomai Ruins/Prefabs/BigArch.prefab
+- Assets/Jam4/Animations/LockedDoor/Closing.anim
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_WallLight.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Roof 3.asset
+- Assets/Jam4/Materials/Button.mat
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_L_NoHangingRoots.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Toy_Geo.asset
+- Assets/Mesh/COL_Lock_0.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 1.asset
+- Assets/Material/Props_TH_Clutter_mat.mat
+- Assets/Jam4/Animations/InhabitantChest/InhabitantChest.controller
+- Assets/Owlk Ruins/materials/Effects_IP_GlowingGlass_Door_mat.mat
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_M_Var.prefab
+- Assets/Mesh/Candle_Ground_Structure_Single.asset
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Row1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/base 1.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_GhostbirdInstrument.prefab
+- Assets/Jam4/Animations/StageButton/StageButton.controller
+- Assets/Jam4/Materials/ButtonOn.mat
+- Assets/Texture2D/Effects_IP_SimulationGroundNoise.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/wing_selector.asset
+- Assets/Texture2D/LOD_Structure_EYE_Steel_d.png
+- Assets/Material/Effects_IP_ProjectorTotemFlame_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Roof.asset
+- Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing 3.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Pillar 2.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_8M_End_L.prefab
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotem_Row5.asset
+- Assets/Mesh/COL_Mangrove_Trunk_DW.asset
+- Assets/Shader/Outer Wilds_Particles_Additive.asset
+- Assets/Owlk Ruins/Prefabs/Clean/NookTableFull_IP.prefab
+- Assets/Mesh/Mangrove_Hanging_DW_2.asset
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamRing_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CodeTotemControls_wheel_Horizontal.asset
+- Assets/Mesh/stand_middle.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Side_A.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Rotating_Ring 2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Pillar 2.asset
+- Assets/Shader/Outer Wilds_Environment_Invisible Planet_Cyberspace Interactible.asset
+- Assets/Mesh/alarmtotem_collider.asset
+- Assets/Jam4/Models/SignalCycleButton.fbx
+- Assets/Mesh/Rotating_Ring.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Walls.asset
+- Assets/Jam4/Texture2D/ceiling_mural.png
+- Assets/Mesh/COL_Floor_0.asset
+- Assets/Owlk Ruins/materials/Terrain_IP_DW_Cliffside_mat.mat
+- Assets/Mesh/COL_Side_A.asset
+- Assets/Mesh/COL_Wall_1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Roof 2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Floor_IP.asset
+- Assets/Owlk Ruins/materials/Foliage_DW_Ground_mat.mat
+- Assets/Mesh/COL_Mangrove_Stumpy_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 3.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Cable_Socket.asset
+- Assets/Nomai Ruins/Prefabs/Container.prefab
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_Riverbed_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Hanging_Structure.asset
+- Assets/Mesh/COL_Pillar_1.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Jug.prefab
+- Assets/Nomai Ruins/Prefabs/Cracked Vase.prefab
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotemController_GearVertical.asset
+- Assets/Jam4/Materials/Hint89.mat
+- Assets/Shader/Outer Wilds_Environment_Invisible Planet_Cyberspace.asset
+- Assets/Cubemap/Effects_IP_SimulationRefractions.png
+- Assets/Vanilla Stuff/Texture2D/LOD_Effects_IP_RiverWaves_Main.png
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Chair.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CodeTotemControls_wheel_Vertical.asset
+- Assets/Nomai Ruins/Resources/Materials/NoiseWarm_d.png
+- Assets/Jam4/Materials/Terrain_NOM_Metal_mat.mat
+- Assets/Jam4/Materials/LampGreen.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/col_GhostBed_Base.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall 1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Props_IP_Chair_Seat.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Stilt.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Rotating_Ring 1.asset
+- Assets/Mesh/COL_Rotating_Ring.asset
+- Assets/Nomai Ruins/Resources/Materials/Effects_NOM_TractorBeamSprite_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Wick 1.asset
+- Assets/Nomai Ruins/Prefabs/Wall.prefab
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Pillar 1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Stairs.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_8M_End_R.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_S_B.prefab
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_IP_Rug_DW_TowerPuzzle_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Medium_Young_Moss.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Large_Leaves_C.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_DoorWay.prefab
+- Assets/Jam4/Animations/StageButton/Finished.anim
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_IP_Rug_DW_Folds_n.png
+- Assets/Jam4/Animations/DockChest/OpenMain.anim
+- Assets/Jam4/Models/FinalBox.fbx
+- Assets/importedStuff/Scenes/DreamWorld/Streamingmeshes_effects/CodeTotemController_GearHorizontal.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Roof 5.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_VaseThick_Broken_Geo.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall 4.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_Candle_n.png
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_DreamObjectProjector_Totem.prefab
+- Assets/Owlk Ruins/materials/Tree_DW_MangroveBark_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_SmallTractorBeam_mat.mat
+- Assets/Vanilla Stuff/Materials/Terrain_IP_Floorblend_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Tree_DW_S_B.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Roof 1.asset
+- Assets/Mesh/COL_Lantern_Wall.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredWall.prefab
+- Assets/Jam4/Texture2D/Hint67.png
+- Assets/Mesh/ProjectorTotem_col.asset
+- Assets/Mesh/COL_Wall_Full_A.asset
+- Assets/Jam4/Prefabs/Layer1Chest.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/GhostBed_Brace_L_Lower.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_CandlePaperBase_e.png
+- Assets/Mesh/COL_IP_DoorWall.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Railing 1.asset
+- Assets/Jam4/Animations/StageButton/PressIncorrect.anim
+- Assets/Materials/environment/invisiblePlanet/effects/dreamWorldOnly/Effects_Ip_CandleMask_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/col_GhostBed_Brace_R_Upper.asset
+- Assets/Jam4/Texture2D/QuantumMural.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Structure.asset
+- Assets/Texture2D/HorizontalGradient_d.png
+- Assets/Mesh/COL_StaticPlate_0.asset
+- Assets/Mesh/Mangrove_Stumpy_DW.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_ProjectionTotem.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Pillar.asset
+- Assets/Jam4/Models/Jammer.fbx
+- Assets/Mesh/COL_Roof_4M.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Light_Sensor.asset
+- Assets/Mesh/stand_bottom.asset
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_M_Straight (1).prefab
+- Assets/Nomai Ruins/Prefabs/RailingPost.prefab
+- Assets/Jam4/Materials/ArrowMat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall 4.asset
+- Assets/Jam4/Prefabs/LockedDoor.prefab
+- Assets/Shader/Standard (Translucent).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/body.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Static_Plate 3.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Goblet.prefab
+- Assets/importedStuff/Material/Effects_IP_SIM_CodeTotemSymbolsHighlight.mat
+- Assets/Jam4/Prefabs/InhabitantChest.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall_Half.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_8M_Mid_L.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_4M_Mid_L.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Mangrove_Stumpy_DW.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Foliage_DW_Ground_d.png
+- Assets/Mesh/COL_Roof_4M_0.asset
+- Assets/Vanilla Stuff/Materials/Effects_IP_PrisonWater_mat.mat
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Ball_Geo.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Half.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/LidTop.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Goblet.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Stairs.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Straight_Young_Moss.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Pillar.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Crate_Sealed.asset
+- Assets/Nomai Ruins/Prefabs/ToyBall.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prop_IP_Rug_TowerPuzzle.prefab
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_Jug.asset
+- Assets/Material/Props_IP_Rug_DW_TowerPuzzle_mat.mat
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_GhostBed_IP.prefab
+- Assets/Texture2D/Tree_IP_MangroveBark_o.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Crate.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Prop_IP_Rug_RW_TowerPuzzle.asset
+- Assets/Owlk Ruins/Prefabs/Clean/plants/Tree_DW_M_Stumpy.prefab
+- Assets/Jam4/Models/LockedDoor.fbx
+- Assets/Nomai Ruins/Resources/Meshes/Effects_NOM_TractorBeamRing_Small.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Crate_Sealed.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Side_B.asset
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Effects_Tractor Beam Glow Ring
+  (Decal).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Side_B.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Plate.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/col_GhostBed_Brace_R_Lower.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/ring04.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Beam 1.asset
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_SmallTractorBeam_Anchor.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_Candle_s.png
+- Assets/Nomai Ruins/Resources/Meshes/Props_NOM_Container_coliider.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Static_Plate 2.asset
+- Assets/Owlk Ruins/materials/Exterior_IP_Iron_DarkPaint_New_mat.mat
+- Assets/Vanilla Stuff/Texture2D/LOD_Terrain_IP_ShoreSand_B_n.png
+- Assets/Texture2D/Foliage_IP_Ground_t.png
+- Assets/Mesh/COL_StaticPlate.asset
+- Assets/Jam4/Animations/InhabitantChest/Opening.anim
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Lattice.asset
+- Assets/Mesh/COL_Mangrove_L_Trunk_DW_Ext.asset
+- Assets/Jam4/Texture2D/Hints.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/face 1.asset
+- Assets/Mesh/COL_Beam.asset
+- Assets/Resources/editor/textures/SphereShape.png
+- Assets/Owlk Ruins/Prefabs/Clean/Railing_IP_Archway_L.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_DreamCandle_LargeFlame_Wall.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_Corner_Inside.prefab
+- Assets/Mesh/COL_Stilt_IP_Mid.asset
+- Assets/Shader/Outer Wilds_Blended_Layered_Vertex Color (3 Layers).asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Archway_Post_Tall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall 2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Mangrove_Straight_DW.asset
+Dependencies:
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/structure_nom
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/structure_stranger

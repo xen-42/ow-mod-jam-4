@@ -1,6 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
   "popupMessage": "WYRM_XEN_JAM_4_POPUP",
+  "preloadAssetBundles": [
+      "assets/bundles/assets",
+      "assets/bundles/structure_nom",
+      "assets/bundles/structure_stranger"
+  ],
   "credits": [
     "Wyrm#Lead developer",
     "xen#Developer",

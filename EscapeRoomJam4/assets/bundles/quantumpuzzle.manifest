@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2578774744
+CRC: 4142997072
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f1fa6dd6c222e5f8d314a740d053911e
+    Hash: c4b963c5debc83fea46ad6150a1ce11a
   TypeTreeHash:
     serializedVersion: 2
     Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
@@ -33,4 +33,6 @@ Assets:
 - Assets/Jam4/Prefabs/QuantumMobius.prefab
 - Assets/Jam4/Prefabs/QuantumShip.prefab
 - Assets/Jam4/Prefabs/QuantumPyramid.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/assets
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/structure_nom

@@ -34,8 +34,8 @@
   "Props": {
     "details": [
       {
-        "assetBundle": "assets/bundles/escapeship",
-        "path": "Assets/Jam4/Prefabs/EscapeShip.prefab",
+        "assetBundle": "assets/bundles/escape_room",
+        "path": "Assets/Jam4/Prefabs/Level/EscapeShip.prefab",
         "keepLoaded": true,
         "position": {
           "x": 0,

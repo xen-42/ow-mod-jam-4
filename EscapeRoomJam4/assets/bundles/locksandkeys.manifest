@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 460096813
+CRC: 2673165272
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6a6a8a52dfaffa88ca00c49455ef2dbe
+    Hash: fc28ca0349bce1ced6d72d05a33e25fc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 968b06136b7347b4952310a99587d745
@@ -39,4 +39,7 @@ Assets:
 - Assets/Jam4/Prefabs/Layer1Key.prefab
 - Assets/Jam4/Prefabs/Layer3Lock.prefab
 - Assets/Jam4/Prefabs/FinalKey.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/assets
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/structure_nom
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/structure_stranger

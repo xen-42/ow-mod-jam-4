@@ -1,0 +1,141 @@
+ManifestFileVersion: 0
+CRC: 1407258762
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9e8d83b4817d156ae9c690753bc720b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_s.png
+- Assets/Texture2D/Structure_IP_Steel_n.png
+- Assets/Texture2D/Structure_IP_Iron_d.png
+- Assets/Owlk Ruins/materials/Structure_DW_Iron_DarkPaint_New_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_n.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Structure_IP_BreakfastNook_Table.asset
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Dark_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_ao.png
+- Assets/Texture2D/Structure_IP_Mangrove_Wood_s.png
+- Assets/Texture2D/Structure_IP_Steel_s.png
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_n.png
+- Assets/Texture2D/Structure_IP_DullGlass_t.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Iron_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_s.png
+- Assets/Owlk Ruins/materials/Structure_IP_InteriorGlow_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Steel_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_ao.png
+- Assets/Owlk Ruins/materials/Structure_DW_Iron_LightPaint_New_mat.mat
+- Assets/Texture2D/Structure_IP_DullGlass_n.png
+- Assets/Texture2D/Structure_IP_Iron_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_n.png
+- Assets/Owlk Ruins/materials/Structure_IP_Steel_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Trim_Wood_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_DarkPaint_New_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_LightPaint_New_ao.png
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Red_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_LightPaint_New_n.png
+- Assets/Owlk Ruins/materials/Structure_DW_Trim_Wood_Decal_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_TheaterScreen_Wood_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_s.png
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Lacquer_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_New_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Red_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Iron_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_LightPaint_New_s.png
+- Assets/Texture2D/Structure_IP_metalHammered_s.png
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Bleached_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_DarkPaint_New_s.png
+- Assets/Owlk Ruins/materials/Structure_IP_Iron_mat.mat
+- Assets/Material/Structure_IP_metalHammered_mat.mat
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Structure_IP_NookTableFull.asset
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Wood_n.png
+- Assets/Owlk Ruins/materials/Structure_IP_Mangrove_Wood_Dark_mat.mat
+- Assets/Material/Structure_IP_CablesTrim_mat.mat
+- Assets/Texture2D/Structure_IP_Steel_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_Bleached_s.png
+- Assets/Texture2D/Structure_DW_TheaterScreen_Wood_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_New_d.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Structure_IP_NookTableFull.asset
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Light_mat.mat
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_d.png
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_s.png
+- Assets/importedStuff/Material/Structure_DW_Trim_Wood_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_Dark_d.png
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_d.png
+- Assets/Owlk Ruins/materials/Structure_IP_GreenGlow_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_d.png
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_s.png
+- Assets/Owlk Ruins/materials/Structure_IP_Mangrove_Wood_Bleached_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Iron_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Steel_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_DarkPaint_New_n.png
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Structure_IP_BreakfastNook_Table.asset
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_Dark_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Iron_n.png
+- Assets/Texture2D/Structure_IP_metalHammered_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Wood_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_s.png
+- Assets/Owlk Ruins/materials/Structure_DW_Trim_Iron_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_d.png
+- Assets/Texture2D/Structure_IP_Mangrove_Wood_Bleached_d.png
+- Assets/Texture2D/Structure_IP_Iron_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_metalHammered_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_LightPaint_New_d.png
+- Assets/Texture2D/Structure_IP_metalHammered_d.png
+- Assets/Texture2D/Structure_IP_Iron_n.png
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_mat.mat
+- Assets/Texture2D/Structure_IP_DullGlass_d.png
+- Assets/importedStuff/Material/Structure_DW_Mangrove_Wood_Dark_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_n.png
+- Assets/Owlk Ruins/materials/Structure_IP_Trim_Wood_mat.mat
+- Assets/Owlk Ruins/materials/Structure_IP_Trim_Iron_mat.mat
+- Assets/importedStuff/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_s.png
+- Assets/Texture2D/Structure_DW_Mangrove_Wood_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_New_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_n.png
+- Assets/Owlk Ruins/Prefabs/Clean/Structure_IP_HalfTable.prefab
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_DarkPaint_New_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Trim_Wood_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_New_s.png
+Dependencies:
+- C:/Users/daron/source/repos/ow-mod-jam-4/EscapeRoomJam4/assets/bundles/assets

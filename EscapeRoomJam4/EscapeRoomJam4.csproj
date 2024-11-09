@@ -47,15 +47,11 @@
     <None Include="subtitle.png" Condition="Exists('subtitle.png')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="assets\bundles\escapeship">
+    <None Include="assets\bundles\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="assets\bundles\quantumpuzzle">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="assets\bundles\locksandkeys">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Remove="assets\bundles\*.manifest" />
+    <None Remove="assets\bundles\bundles" />
     <None Include="assets\text\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
