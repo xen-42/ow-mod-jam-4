@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -59,6 +60,34 @@ public class CoordinateInterfacePuzzleController : Puzzle
 
     //private int[] InvertCoord(int[] coord) => coord.Select(x => (10 - x) % 6).ToArray();
     private int[] RotateCoord(int[] coord) => coord.Select(x => (x + 3) % 6).ToArray();
+    private int[] FlipCoord(int[] coords)
+    {
+        List<int> ints = new List<int>();
+        foreach (int coord in coords)
+        {
+            int newInt = 0;
+            switch (coord)
+            {
+                case 0:
+                    newInt = 4;
+                    break;
+                case 1:
+                    newInt = 3;
+                    break;
+                case 3:
+                    newInt = 1;
+                    break;
+                case 4:
+                    newInt = 0;
+                    break;
+                default:
+                    newInt = coord;
+                    break;
+            }
+            ints.Add(newInt);
+        }
+        return ints.ToArray();
+    }
 
     public bool CheckCoords()
     {
@@ -71,9 +100,9 @@ public class CoordinateInterfacePuzzleController : Puzzle
 
     public bool CheckAlternateCoords()
     {
-        bool flag = _interface._nodeControllers[0].CheckCoordinate(RotateCoord(_coordinateY));
-        bool flag2 = _interface._nodeControllers[1].CheckCoordinate(RotateCoord(_coordinateX));
-        bool flag3 = _interface._nodeControllers[2].CheckCoordinate(RotateCoord(_coordinateZ));
+        bool flag = _interface._nodeControllers[0].CheckCoordinate(FlipCoord(_coordinateX));
+        bool flag2 = _interface._nodeControllers[1].CheckCoordinate(FlipCoord(_coordinateY));
+        bool flag3 = _interface._nodeControllers[2].CheckCoordinate(FlipCoord(_coordinateZ));
 
         return flag && flag2 && flag3;
     }
