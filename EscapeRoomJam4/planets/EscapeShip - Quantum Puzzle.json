@@ -3,10 +3,47 @@
   "name": "EscapeShip",
   "starSystem": "xen.EscapeSystem",
   "Props": {
-    "quantumGroups": [
+    "details": [
       {
-        "id": "QuantumPuzzle",
-        "type": "sockets",
+        "rename": "QuantumPuzzle"
+      }
+    ],
+    "socketQuantumGroups": [
+      {
+        "details": [
+          {
+            "rename": "QuantumStatue1",
+            "path": "Assets/Jam4/Prefabs/QuantumShip.prefab",
+            "assetBundle": "assets/bundles/quantumpuzzle",
+            "scale": 3,
+            "parentPath": "Sector/QuantumPuzzle",
+            "randomizeYRotation": false
+          },
+          {
+            "rename": "QuantumStatue2",
+            "path": "Assets/Jam4/Prefabs/QuantumPyramid.prefab",
+            "assetBundle": "assets/bundles/quantumpuzzle",
+            "scale": 3,
+            "parentPath": "Sector/QuantumPuzzle",
+            "randomizeYRotation": false
+          },
+          {
+            "rename": "QuantumStatue3",
+            "path": "Assets/Jam4/Prefabs/QuantumBall.prefab",
+            "assetBundle": "assets/bundles/quantumpuzzle",
+            "scale": 3,
+            "parentPath": "Sector/QuantumPuzzle",
+            "randomizeYRotation": false
+          },
+          {
+            "rename": "QuantumStatue4",
+            "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
+            "assetBundle": "assets/bundles/quantumpuzzle",
+            "scale": 3,
+            "parentPath": "Sector/QuantumPuzzle",
+            "randomizeYRotation": false
+          }
+        ],
         "sockets": [
           {
             "position": {
@@ -18,7 +55,8 @@
               "x": 0,
               "y": 180,
               "z": 0
-            }
+            },
+            "parentPath": "Sector/QuantumPuzzle"
           },
           {
             "position": {
@@ -30,7 +68,8 @@
               "x": 0,
               "y": 180,
               "z": 0
-            }
+            },
+            "parentPath": "Sector/QuantumPuzzle"
           },
           {
             "position": {
@@ -42,7 +81,8 @@
               "x": 0,
               "y": 180,
               "z": 0
-            }
+            },
+            "parentPath": "Sector/QuantumPuzzle"
           },
           {
             "position": {
@@ -54,66 +94,10 @@
               "x": 0,
               "y": 180,
               "z": 0
-            }
+            },
+            "parentPath": "Sector/QuantumPuzzle"
           }
         ]
-      }
-    ],
-    "details": [
-      {
-        "rename": "QuantumPuzzle"
-      },
-      {
-        "quantumGroupID": "QuantumPuzzle",
-        "rename": "QuantumStatue1",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumShip.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "quantumGroupID": "QuantumPuzzle",
-        "rename": "QuantumStatue2",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumPyramid.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "quantumGroupID": "QuantumPuzzle",
-        "rename": "QuantumStatue3",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumBall.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "rename": "QuantumStatueEmptyState1",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "rename": "QuantumStatueEmptyState2",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "rename": "QuantumStatueEmptyState3",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
-      },
-      {
-        "rename": "QuantumStatueEmptyState4",
-        "parentPath": "Sector/QuantumPuzzle",
-        "path": "Assets/Jam4/Prefabs/QuantumMobius.prefab",
-        "assetBundle": "assets/bundles/quantumpuzzle",
-        "scale": 3
       }
     ]
   }

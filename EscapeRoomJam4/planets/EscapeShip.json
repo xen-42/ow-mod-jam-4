@@ -16,7 +16,17 @@
     {
       "innerRadius": 0,
       "outerRadius": 100,
-      "intensity": 0.5
+      "intensity": 0.5,
+    },
+    {
+      "innerRadius": 0,
+      "outerRadius": 60,
+      "intensity": 0.6,
+      "position": {
+        "x": 85,
+        "y": 0,
+        "z": 0
+      }
     }
   ],
   "canShowOnTitle": false,
